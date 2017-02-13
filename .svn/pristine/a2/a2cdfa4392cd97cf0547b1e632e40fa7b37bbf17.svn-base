@@ -1,0 +1,66 @@
+<?php
+namespace Home\Controller;
+use Think\Controller;
+use Think\Model;
+
+class ApisController extends Controller {
+
+	private $params = "";
+
+	public function __construct() {
+		parent::__construct();
+		$this->params = I('post.params');
+		if(!$this->params){
+			$this->ajaxReturn(array('statusCode' => -1, 'msg' => '缺少参数!'));
+		}
+	}
+
+	public function reg(){
+		$data = encode_params(authcode($this->params));
+		if(!isset($data['username']) || !isset($data['password'])  || !isset($data['email'])){
+			$this->ajaxReturn(array('statusCode' => -1, 'msg' => '参数错误!'));
+		}
+		$check = M('check_users')->where(array('username' => $data['username']))->field("id")->find();
+		if($check){
+			$this->ajaxReturn(array('statusCode' => -1, 'msg' => '帐号已经存在!'));
+		}
+		$data['add_time'] = time();
+		$data['password'] = md5($data['password']);
+		$ret = M('check_users')->add($data);
+		if($ret){
+			$this->ajaxReturn(array('statusCode' => 0, 'msg' => '注册成功!'));
+		}
+		$this->ajaxReturn(array('statusCode' => -1, 'msg' => '注册失败!'));
+	}
+
+
+	public function login(){
+		$data = encode_params(authcode($this->params));
+		if(!isset($data['username']) || !isset($data['password'])){
+			$this->ajaxReturn(array('statusCode' => -1, 'msg' => '参数错误!'));
+		}
+		$check = M('check_users')->where(array('username' => $data['username']))->find();
+		if(!$check){
+			$this->ajaxReturn(array('statusCode' => -1, 'msg' => '用户不存在!'));
+		}
+		if(md5($data['password']) != $check['password']){
+			$this->ajaxReturn(array('statusCode' => -1, 'msg' => '用户或密码错误!'));
+		}
+		if($check['status'] == 1){
+			$this->ajaxReturn(array('statusCode' => -1, 'msg' => '用户已被冻结!'));
+		}
+		$check['user_id'] = $check['id'];
+		$check['end_time'] = date('Y-m-d H:i:s', $check['end_time']);
+		unset($check['password']);
+		unset($check['add_time']);
+		unset($check['id']);
+		$this->ajaxReturn(array('statusCode' => 0, 'msg' => '正确', 'users' => authcode(decode_params($check),"ENCODE")));
+	}
+
+	function checkParams(){
+		$params = $this->params;
+		echo authcode($params,"DECODE");
+
+	}
+
+}

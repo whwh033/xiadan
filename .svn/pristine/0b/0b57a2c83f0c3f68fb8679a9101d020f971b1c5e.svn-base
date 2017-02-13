@@ -1,0 +1,2192 @@
+[ 2017-01-22T14:18:52+08:00 ] ::1 /xiadan/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013743s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015120s ]
+SQL: SHOW COLUMNS FROM `xd_web` [ RunTime:0.0245s ]
+SQL: SELECT * FROM `xd_web` WHERE `Id` = 1 LIMIT 1   [ RunTime:0.0207s ]
+
+[ 2017-01-22T14:20:06+08:00 ] ::1 /xiadan/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+SQL: SHOW COLUMNS FROM `xd_web` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `xd_web` WHERE `Id` = 1 LIMIT 1   [ RunTime:0.0103s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.010158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.010327s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.105086s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.105212s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008539s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008660s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009128s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009231s ]
+
+[ 2017-01-22T14:20:10+08:00 ] ::1 /xiadan/apis/checkParams
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000843s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000959s ]
+
+[ 2017-01-22T14:20:49+08:00 ] ::1 /xiadan/apis/checkParams
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000505s ]
+
+[ 2017-01-22T14:21:20+08:00 ] ::1 /xiadan/apis/checkParams
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000523s ]
+
+[ 2017-01-22T14:21:33+08:00 ] ::1 /xiadan/apis/checkParams
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000549s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000639s ]
+
+[ 2017-01-22T14:22:00+08:00 ] ::1 /xiadan/apis/checkParams
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000999s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000598s ]
+
+[ 2017-01-22T14:22:52+08:00 ] ::1 /xiadan/apis/checkParams
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001182s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001146s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001240s ]
+
+[ 2017-01-22T14:23:08+08:00 ] ::1 /xiadan/apis/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001035s ]
+
+[ 2017-01-22T14:48:50+08:00 ] ::1 /xiadan/apis/checkParams
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001437s ]
+
+[ 2017-01-22T14:48:56+08:00 ] ::1 /xiadan/apis/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+SQL: SHOW COLUMNS FROM `xd_check_users` [ RunTime:0.0061s ]
+SQL: SELECT `id` FROM `xd_check_users` WHERE `username` = 'whwh033' LIMIT 1   [ RunTime:0.0052s ]
+SQL: INSERT INTO `xd_check_users` (`username`,`password`,`email`,`add_time`) VALUES ('whwh033','e10adc3949ba59abbe56e057f20f883e','353775367@qq.com','1485067736') [ RunTime:0.0253s ]
+
+[ 2017-01-22T14:49:37+08:00 ] ::1 /xiadan/apis/checkParams
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000814s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000930s ]
+
+[ 2017-01-22T14:49:41+08:00 ] ::1 /xiadan/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+SQL: SHOW COLUMNS FROM `xd_web` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `xd_web` WHERE `Id` = 1 LIMIT 1   [ RunTime:0.0058s ]
+ERR: 非法操作:index
+
+[ 2017-01-22T14:50:03+08:00 ] ::1 /xiadan/apis/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+SQL: SHOW COLUMNS FROM `xd_check_users` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `xd_check_users` WHERE `username` = 'whwh033' LIMIT 1   [ RunTime:0.0058s ]
+NOTIC: [8] Undefined index: end_time D:\wamp\www\xiadan\Application\Home\Controller\ApisController.class.php 第 53 行.
+
+[ 2017-01-22T14:51:08+08:00 ] ::1 /xiadan/apis/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+SQL: SHOW COLUMNS FROM `xd_check_users` [ RunTime:0.0236s ]
+SQL: SELECT * FROM `xd_check_users` WHERE `username` = 'whwh033' LIMIT 1   [ RunTime:0.0227s ]
+NOTIC: [8] Undefined index: end_time D:\wamp\www\xiadan\Application\Home\Controller\ApisController.class.php 第 53 行.
+
+[ 2017-01-22T14:51:57+08:00 ] ::1 /xiadan/apis/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+SQL: SHOW COLUMNS FROM `xd_check_users` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `xd_check_users` WHERE `username` = 'whwh033' LIMIT 1   [ RunTime:0.0048s ]
+
+[ 2017-01-22T14:52:21+08:00 ] ::1 /xiadan/apis/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001307s ]
+SQL: SHOW COLUMNS FROM `xd_check_users` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `xd_check_users` WHERE `username` = 'whwh033' LIMIT 1   [ RunTime:0.0083s ]
+SQL: SHOW COLUMNS FROM `xd_check_software` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `xd_check_software` LIMIT 1   [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `xd_check_group` [ RunTime:0.0066s ]
+NOTIC: [8] Undefined index: group_id D:\wamp\www\xiadan\Application\Home\Controller\ApisController.class.php 第 62 行.
+SQL: SELECT * FROM `xd_check_group` WHERE `id` = null LIMIT 1   [ RunTime:0.0074s ]
+
+[ 2017-01-22T14:59:50+08:00 ] ::1 /xiadan/apis/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+SQL: SHOW COLUMNS FROM `xd_check_users` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `xd_check_users` WHERE `username` = 'whwh033' LIMIT 1   [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `xd_check_software` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `xd_check_software` LIMIT 1   [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `xd_check_group` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: group_id D:\wamp\www\xiadan\Application\Home\Controller\ApisController.class.php 第 63 行.
+SQL: SELECT * FROM `xd_check_group` WHERE `id` = null LIMIT 1   [ RunTime:0.0054s ]
+
+[ 2017-01-22T15:00:34+08:00 ] ::1 /xiadan/apis/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+
+[ 2017-01-22T15:00:40+08:00 ] ::1 /xiadan/apis/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+
+[ 2017-01-22T15:00:40+08:00 ] ::1 /xiadan/apis/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+
+[ 2017-01-22T15:00:53+08:00 ] ::1 /xiadan/apis/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+SQL: SHOW COLUMNS FROM `xd_check_users` [ RunTime:0.0158s ]
+SQL: SELECT * FROM `xd_check_users` WHERE `username` = 'whwh033' LIMIT 1   [ RunTime:0.0185s ]
+SQL: SHOW COLUMNS FROM `xd_check_software` [ RunTime:0.0216s ]
+SQL: SELECT * FROM `xd_check_software` LIMIT 1   [ RunTime:0.0133s ]
+SQL: SHOW COLUMNS FROM `xd_check_group` [ RunTime:0.0058s ]
+NOTIC: [8] Undefined index: group_id D:\wamp\www\xiadan\Application\Home\Controller\ApisController.class.php 第 63 行.
+SQL: SELECT * FROM `xd_check_group` WHERE `id` = null LIMIT 1   [ RunTime:0.0177s ]
+
+[ 2017-01-22T15:01:11+08:00 ] ::1 /xiadan/apis/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `xd_check_users` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `xd_check_users` WHERE `username` = 'whwh033' LIMIT 1   [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `xd_check_software` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `xd_check_software` LIMIT 1   [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `xd_check_group` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `xd_check_group` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `xd_check_online` [ RunTime:0.0072s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xd_check_online` WHERE `user_id` = 3 AND `software_id` = 1 LIMIT 1   [ RunTime:0.0073s ]
+SQL: INSERT INTO `xd_check_online` (`user_id`,`software_id`,`update_time`,`heard_data`) VALUES ('3','1','1485068471','2b22f51ba46d3c7ec5749955938a5a17') [ RunTime:0.0142s ]
+
+[ 2017-01-22T15:02:42+08:00 ] ::1 /xiadan/apis/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001465s ]
+SQL: SHOW COLUMNS FROM `xd_check_users` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `xd_check_users` WHERE `username` = 'whwh033' LIMIT 1   [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `xd_check_software` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `xd_check_software` LIMIT 1   [ RunTime:0.0077s ]
+SQL: SHOW COLUMNS FROM `xd_check_group` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `xd_check_group` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0065s ]
+SQL: SHOW COLUMNS FROM `xd_check_online` [ RunTime:0.0064s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xd_check_online` WHERE `user_id` = 3 AND `software_id` = 1 LIMIT 1   [ RunTime:0.0071s ]
+
+[ 2017-01-22T15:03:53+08:00 ] ::1 /xiadan/apis/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+SQL: SHOW COLUMNS FROM `xd_check_users` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `xd_check_users` WHERE `username` = 'whwh033' LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `xd_check_software` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `xd_check_software` LIMIT 1   [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `xd_check_group` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `xd_check_group` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `xd_check_online` [ RunTime:0.0053s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xd_check_online` WHERE `user_id` = 3 AND `software_id` = 1 LIMIT 1   [ RunTime:0.0064s ]
+SQL: INSERT INTO `xd_check_online` (`user_id`,`software_id`,`update_time`,`heard_data`) VALUES ('3','1','1485068633','2b55ef7369c3c39412b5fe0ca6032109') [ RunTime:0.0146s ]
+
+[ 2017-01-22T15:06:11+08:00 ] ::1 /xiadan/apis/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+SQL: SHOW COLUMNS FROM `xd_check_users` [ RunTime:0.0366s ]
+SQL: SELECT * FROM `xd_check_users` WHERE `username` = 'whwh033' LIMIT 1   [ RunTime:0.0265s ]
+SQL: SHOW COLUMNS FROM `xd_check_software` [ RunTime:0.0158s ]
+SQL: SELECT * FROM `xd_check_software` LIMIT 1   [ RunTime:0.0187s ]
+
+[ 2017-01-22T15:06:43+08:00 ] ::1 /xiadan/apis/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+SQL: SHOW COLUMNS FROM `xd_check_users` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `xd_check_users` WHERE `username` = 'whwh033' LIMIT 1   [ RunTime:0.0084s ]
+SQL: SHOW COLUMNS FROM `xd_check_software` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `xd_check_software` LIMIT 1   [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `xd_check_group` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `xd_check_group` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0066s ]
+SQL: SHOW COLUMNS FROM `xd_check_online` [ RunTime:0.0064s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xd_check_online` WHERE `user_id` = 3 AND `software_id` = 1 LIMIT 1   [ RunTime:0.0071s ]
+
+[ 2017-01-22T15:07:04+08:00 ] ::1 /xiadan/apis/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+SQL: SHOW COLUMNS FROM `xd_check_users` [ RunTime:0.0313s ]
+SQL: SELECT * FROM `xd_check_users` WHERE `username` = 'whwh033' LIMIT 1   [ RunTime:0.0357s ]
+SQL: SHOW COLUMNS FROM `xd_check_software` [ RunTime:0.0312s ]
+SQL: SELECT * FROM `xd_check_software` LIMIT 1   [ RunTime:0.0347s ]
+SQL: SHOW COLUMNS FROM `xd_check_group` [ RunTime:0.0229s ]
+SQL: SELECT * FROM `xd_check_group` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0189s ]
+SQL: SHOW COLUMNS FROM `xd_check_online` [ RunTime:0.0062s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xd_check_online` WHERE `user_id` = 3 AND `software_id` = 1 LIMIT 1   [ RunTime:0.0137s ]
+
+[ 2017-01-22T15:07:12+08:00 ] ::1 /xiadan/apis/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+SQL: SHOW COLUMNS FROM `xd_check_users` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `xd_check_users` WHERE `username` = 'whwh033' LIMIT 1   [ RunTime:0.0066s ]
+SQL: SHOW COLUMNS FROM `xd_check_software` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `xd_check_software` LIMIT 1   [ RunTime:0.0072s ]
+SQL: SHOW COLUMNS FROM `xd_check_group` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `xd_check_group` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `xd_check_online` [ RunTime:0.0069s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xd_check_online` WHERE `user_id` = 3 AND `software_id` = 1 LIMIT 1   [ RunTime:0.0069s ]
+
+[ 2017-01-22T15:07:28+08:00 ] ::1 /xiadan/apis/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+SQL: SHOW COLUMNS FROM `xd_check_users` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `xd_check_users` WHERE `username` = 'whwh033' LIMIT 1   [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `xd_check_software` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `xd_check_software` LIMIT 1   [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `xd_check_group` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `xd_check_group` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `xd_check_online` [ RunTime:0.0064s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xd_check_online` WHERE `user_id` = 3 AND `software_id` = 1 LIMIT 1   [ RunTime:0.0061s ]
+
+[ 2017-01-22T15:07:30+08:00 ] ::1 /xiadan/apis/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+SQL: SHOW COLUMNS FROM `xd_check_users` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `xd_check_users` WHERE `username` = 'whwh033' LIMIT 1   [ RunTime:0.0069s ]
+SQL: SHOW COLUMNS FROM `xd_check_software` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `xd_check_software` LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `xd_check_group` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `xd_check_group` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `xd_check_online` [ RunTime:0.0068s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xd_check_online` WHERE `user_id` = 3 AND `software_id` = 1 LIMIT 1   [ RunTime:0.0063s ]
+
+[ 2017-01-22T15:07:30+08:00 ] ::1 /xiadan/apis/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+SQL: SHOW COLUMNS FROM `xd_check_users` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `xd_check_users` WHERE `username` = 'whwh033' LIMIT 1   [ RunTime:0.0072s ]
+SQL: SHOW COLUMNS FROM `xd_check_software` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `xd_check_software` LIMIT 1   [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `xd_check_group` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `xd_check_group` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0069s ]
+SQL: SHOW COLUMNS FROM `xd_check_online` [ RunTime:0.0081s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xd_check_online` WHERE `user_id` = 3 AND `software_id` = 1 LIMIT 1   [ RunTime:0.0060s ]
+
+[ 2017-01-22T15:07:31+08:00 ] ::1 /xiadan/apis/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+SQL: SHOW COLUMNS FROM `xd_check_users` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `xd_check_users` WHERE `username` = 'whwh033' LIMIT 1   [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `xd_check_software` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `xd_check_software` LIMIT 1   [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `xd_check_group` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xd_check_group` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `xd_check_online` [ RunTime:0.0055s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xd_check_online` WHERE `user_id` = 3 AND `software_id` = 1 LIMIT 1   [ RunTime:0.0046s ]
+
+[ 2017-01-22T15:07:31+08:00 ] ::1 /xiadan/apis/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+SQL: SHOW COLUMNS FROM `xd_check_users` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `xd_check_users` WHERE `username` = 'whwh033' LIMIT 1   [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `xd_check_software` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `xd_check_software` LIMIT 1   [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `xd_check_group` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `xd_check_group` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `xd_check_online` [ RunTime:0.0056s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xd_check_online` WHERE `user_id` = 3 AND `software_id` = 1 LIMIT 1   [ RunTime:0.0056s ]
+
+[ 2017-01-22T15:07:32+08:00 ] ::1 /xiadan/apis/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+SQL: SHOW COLUMNS FROM `xd_check_users` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `xd_check_users` WHERE `username` = 'whwh033' LIMIT 1   [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `xd_check_software` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `xd_check_software` LIMIT 1   [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `xd_check_group` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `xd_check_group` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0074s ]
+SQL: SHOW COLUMNS FROM `xd_check_online` [ RunTime:0.0063s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xd_check_online` WHERE `user_id` = 3 AND `software_id` = 1 LIMIT 1   [ RunTime:0.0077s ]
+
+[ 2017-01-22T15:13:40+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+
+[ 2017-01-22T15:14:27+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000887s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+
+[ 2017-01-22T15:14:53+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+
+[ 2017-01-22T15:22:10+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001175s ]
+
+[ 2017-01-22T15:22:14+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+
+[ 2017-01-22T15:22:14+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+
+[ 2017-01-22T15:22:22+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+NOTIC: [8] Uninitialized string offset: 16 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 18 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 19 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 20 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 21 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 22 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 23 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 16 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 24 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 18 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 19 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 27 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 20 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 28 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 21 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 22 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 30 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 23 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 31 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 24 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 32 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 33 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 34 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 27 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 35 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 28 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 36 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 37 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 30 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 38 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 31 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 39 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+
+[ 2017-01-22T15:22:24+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+NOTIC: [8] Uninitialized string offset: 16 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 18 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 19 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 20 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 21 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 22 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 23 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 16 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 24 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 18 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 19 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 27 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 20 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 28 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 21 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 22 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 30 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 23 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 31 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 24 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 32 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 33 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 34 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 27 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 35 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 28 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 36 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 37 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 30 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 38 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 31 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 39 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+
+[ 2017-01-22T15:22:25+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+NOTIC: [8] Uninitialized string offset: 16 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 18 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 19 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 20 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 21 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 22 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 23 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 16 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 24 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 18 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 19 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 27 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 20 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 28 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 21 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 22 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 30 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 23 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 31 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 24 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 32 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 33 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 34 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 27 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 35 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 28 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 36 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 37 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 30 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 38 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 31 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 39 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+
+[ 2017-01-22T15:22:25+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+NOTIC: [8] Uninitialized string offset: 16 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 18 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 19 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 20 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 21 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 22 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 23 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 16 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 24 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 18 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 19 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 27 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 20 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 28 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 21 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 22 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 30 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 23 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 31 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 24 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 32 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 33 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 34 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 27 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 35 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 28 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 36 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 37 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 30 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 38 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 31 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 39 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+
+[ 2017-01-22T15:22:25+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+NOTIC: [8] Uninitialized string offset: 16 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 18 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 19 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 20 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 21 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 22 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 23 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 16 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 24 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 18 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 19 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 27 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 20 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 28 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 21 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 22 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 30 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 23 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 31 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 24 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 32 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 33 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 34 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 27 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 35 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 28 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 36 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 37 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 30 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 38 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 31 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 39 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+
+[ 2017-01-22T15:22:26+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000858s ]
+NOTIC: [8] Uninitialized string offset: 16 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 18 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 19 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 20 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 21 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 22 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 23 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 16 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 24 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 18 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 19 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 27 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 20 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 28 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 21 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 22 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 30 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 23 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 31 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 24 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 32 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 33 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 34 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 27 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 35 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 28 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 36 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 37 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 30 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 38 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 31 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 39 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+
+[ 2017-01-22T15:22:26+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+NOTIC: [8] Uninitialized string offset: 16 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 18 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 19 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 20 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 21 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 22 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 23 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 16 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 24 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 18 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 19 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 27 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 20 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 28 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 21 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 22 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 30 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 23 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 31 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 24 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 32 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 33 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 34 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 27 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 35 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 28 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 36 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 37 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 30 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 38 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 31 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 39 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+
+[ 2017-01-22T15:22:26+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+NOTIC: [8] Uninitialized string offset: 16 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 18 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 19 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 20 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 21 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 22 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 23 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 16 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 24 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 18 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 19 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 27 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 20 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 28 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 21 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 22 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 30 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 23 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 31 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 24 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 32 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 33 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 34 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 27 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 35 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 28 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 36 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 37 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 30 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 38 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 31 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 39 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+
+[ 2017-01-22T15:22:26+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+NOTIC: [8] Uninitialized string offset: 16 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 18 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 19 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 20 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 21 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 22 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 23 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 16 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 24 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 18 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 19 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 27 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 20 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 28 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 21 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 22 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 30 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 23 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 31 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 24 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 32 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 33 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 34 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 27 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 35 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 28 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 36 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 37 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 30 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 38 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 31 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 39 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+
+[ 2017-01-22T15:22:27+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+NOTIC: [8] Uninitialized string offset: 16 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 18 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 19 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 20 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 21 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 22 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 23 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 16 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 24 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 18 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 19 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 27 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 20 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 28 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 21 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 22 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 30 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 23 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 31 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 24 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 32 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 33 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 34 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 27 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 35 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 28 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 36 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 37 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 30 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 38 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 31 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 39 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+
+[ 2017-01-22T15:22:27+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+NOTIC: [8] Uninitialized string offset: 16 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 18 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 19 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 20 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 21 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 22 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 23 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 16 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 24 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 18 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 19 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 27 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 20 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 28 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 21 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 22 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 30 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 23 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 31 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 24 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 32 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 33 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 34 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 27 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 35 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 28 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 36 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 37 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 30 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 38 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+NOTIC: [8] Uninitialized string offset: 31 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 215 行.
+NOTIC: [8] Uninitialized string offset: 39 D:\wamp\www\xiadan\Application\Common\Common\function.php 第 216 行.
+
+[ 2017-01-22T15:23:17+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+
+[ 2017-01-22T15:23:19+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+
+[ 2017-01-22T15:23:19+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+
+[ 2017-01-22T15:23:19+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+
+[ 2017-01-22T15:23:20+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+
+[ 2017-01-22T15:23:20+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+
+[ 2017-01-22T15:23:20+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+
+[ 2017-01-22T15:23:20+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+
+[ 2017-01-22T15:23:21+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+
+[ 2017-01-22T15:23:21+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+
+[ 2017-01-22T15:23:21+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+
+[ 2017-01-22T15:23:22+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+
+[ 2017-01-22T15:23:45+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+
+[ 2017-01-22T15:23:45+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000591s ]
+
+[ 2017-01-22T15:23:46+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+
+[ 2017-01-22T15:23:46+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+
+[ 2017-01-22T15:23:46+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+
+[ 2017-01-22T15:23:46+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+
+[ 2017-01-22T15:23:46+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000844s ]
+
+[ 2017-01-22T15:23:47+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000755s ]
+
+[ 2017-01-22T15:23:47+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+
+[ 2017-01-22T15:24:15+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+
+[ 2017-01-22T15:24:16+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+
+[ 2017-01-22T15:24:16+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+
+[ 2017-01-22T15:24:17+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+
+[ 2017-01-22T15:24:27+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+
+[ 2017-01-22T15:24:27+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+
+[ 2017-01-22T15:24:28+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+
+[ 2017-01-22T15:24:28+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+
+[ 2017-01-22T15:24:39+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+
+[ 2017-01-22T15:24:40+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+
+[ 2017-01-22T15:24:41+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+
+[ 2017-01-22T15:24:41+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+
+[ 2017-01-22T15:24:41+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+
+[ 2017-01-22T15:24:42+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+
+[ 2017-01-22T15:24:49+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+
+[ 2017-01-22T15:24:49+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+
+[ 2017-01-22T15:24:49+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+
+[ 2017-01-22T15:24:49+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+
+[ 2017-01-22T15:24:50+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+
+[ 2017-01-22T15:24:50+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+
+[ 2017-01-22T15:24:50+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+
+[ 2017-01-22T15:24:50+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+
+[ 2017-01-22T15:24:59+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+
+[ 2017-01-22T15:24:59+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+
+[ 2017-01-22T15:24:59+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+
+[ 2017-01-22T15:25:07+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+
+[ 2017-01-22T15:25:08+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+
+[ 2017-01-22T15:25:08+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+
+[ 2017-01-22T15:25:08+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+
+[ 2017-01-22T15:25:09+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-01-22T15:25:09+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+
+[ 2017-01-22T15:25:09+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+
+[ 2017-01-22T15:25:09+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+
+[ 2017-01-22T15:25:09+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-01-22T15:25:38+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001468s ]
+
+[ 2017-01-22T15:25:38+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+
+[ 2017-01-22T15:25:39+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+
+[ 2017-01-22T15:25:39+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+
+[ 2017-01-22T15:25:39+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+
+[ 2017-01-22T15:26:46+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001112s ]
+
+[ 2017-01-22T15:26:47+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+
+[ 2017-01-22T15:26:51+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+
+[ 2017-01-22T15:26:51+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+
+[ 2017-01-22T15:26:51+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+
+[ 2017-01-22T15:26:52+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+
+[ 2017-01-22T15:26:52+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+
+[ 2017-01-22T15:26:52+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+
+[ 2017-01-22T15:39:53+08:00 ] ::1 /xiadan/apis/checkParams
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000536s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000613s ]
+
+[ 2017-01-22T15:40:04+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+SQL: SHOW COLUMNS FROM `xd_check_card` [ RunTime:0.0191s ]
+SQL: SELECT * FROM `xd_check_card` WHERE `card` = '123456' LIMIT 1   [ RunTime:0.0168s ]
+ERR: 1146:Table 'xiadan.xd_username' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `xd_username`
+ERR: 1146:Table 'xiadan.xd_username' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `xd_username`
+
+[ 2017-01-22T15:40:21+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000959s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000920s ]
+SQL: SHOW COLUMNS FROM `xd_check_card` [ RunTime:0.0254s ]
+SQL: SELECT * FROM `xd_check_card` WHERE `card` = '123456' LIMIT 1   [ RunTime:0.0288s ]
+SQL: SHOW COLUMNS FROM `xd_check_users` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `xd_check_users` WHERE `username` = 'whwh033' LIMIT 1   [ RunTime:0.0158s ]
+SQL: UPDATE `xd_check_users` SET `end_time`='1485330021' WHERE `id` = 3 [ RunTime:0.0151s ]
+SQL: UPDATE `xd_check_card` SET `username`='whwh033',`status`='1',`use_time`='1485070821' WHERE `id` = 1 [ RunTime:0.0212s ]
+
+[ 2017-01-22T15:40:32+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001502s ]
+SQL: SHOW COLUMNS FROM `xd_check_card` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `xd_check_card` WHERE `card` = '123456' LIMIT 1   [ RunTime:0.0204s ]
+
+[ 2017-01-22T15:41:27+08:00 ] ::1 /xiadan/apis/recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+SQL: SHOW COLUMNS FROM `xd_check_card` [ RunTime:0.0194s ]
+SQL: SELECT * FROM `xd_check_card` WHERE `card` = '123456' LIMIT 1   [ RunTime:0.0265s ]
+SQL: SHOW COLUMNS FROM `xd_check_users` [ RunTime:0.0234s ]
+SQL: SELECT * FROM `xd_check_users` WHERE `username` = 'whwh033' LIMIT 1   [ RunTime:0.0240s ]
+SQL: UPDATE `xd_check_users` SET `end_time`='1485589221' WHERE `id` = 3 [ RunTime:0.0483s ]
+SQL: UPDATE `xd_check_card` SET `username`='whwh033',`status`='1',`use_time`='1485070887' WHERE `id` = 1 [ RunTime:0.0227s ]
+
+[ 2017-01-22T15:47:24+08:00 ] ::1 /xiadan/apis/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001420s ]
+SQL: SHOW COLUMNS FROM `xd_check_users` [ RunTime:0.0208s ]
+SQL: SELECT * FROM `xd_check_users` WHERE `username` = 'whwh033' LIMIT 1   [ RunTime:0.0206s ]
+SQL: SHOW COLUMNS FROM `xd_check_software` [ RunTime:0.0226s ]
+SQL: SELECT * FROM `xd_check_software` LIMIT 1   [ RunTime:0.0226s ]
+SQL: SHOW COLUMNS FROM `xd_check_group` [ RunTime:0.0213s ]
+SQL: SELECT * FROM `xd_check_group` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0216s ]
+SQL: SHOW COLUMNS FROM `xd_check_online` [ RunTime:0.0228s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xd_check_online` WHERE `user_id` = 3 AND `software_id` = 1 LIMIT 1   [ RunTime:0.0238s ]
+
+[ 2017-01-22T15:48:40+08:00 ] ::1 /xiadan/apis/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000966s ]
+SQL: SHOW COLUMNS FROM `xd_check_users` [ RunTime:0.0189s ]
+SQL: SELECT * FROM `xd_check_users` WHERE `username` = 'whwh033' LIMIT 1   [ RunTime:0.0279s ]
+SQL: SHOW COLUMNS FROM `xd_check_software` [ RunTime:0.0317s ]
+SQL: SELECT * FROM `xd_check_software` LIMIT 1   [ RunTime:0.0287s ]
+SQL: SHOW COLUMNS FROM `xd_check_group` [ RunTime:0.0326s ]
+SQL: SELECT * FROM `xd_check_group` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0318s ]
+SQL: SHOW COLUMNS FROM `xd_check_online` [ RunTime:0.0323s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xd_check_online` WHERE `user_id` = 3 AND `software_id` = 1 LIMIT 1   [ RunTime:0.0286s ]
+SQL: INSERT INTO `xd_check_online` (`user_id`,`software_id`,`update_time`,`heard_data`) VALUES ('3','1','1485071320','fa22e52469508624517cd422d605cf38b0b8748a') [ RunTime:0.0471s ]
+
+[ 2017-01-22T15:51:57+08:00 ] ::1 /xiadan/apis/checkParams
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001948s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002132s ]
+
+[ 2017-01-22T15:52:20+08:00 ] ::1 /xiadan/apis/checkParams
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000586s ]
+
+[ 2017-01-22T15:52:41+08:00 ] ::1 /xiadan/apis/heard_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000970s ]
+SQL: SHOW COLUMNS FROM `xd_check_online` [ RunTime:0.0258s ]
+SQL: UPDATE `xd_check_online` SET `update_time`='1485071561' WHERE `user_id` = 3 AND `heard_data` = 'fa22e52469508624517cd422d605cf38b0b8748a' [ RunTime:0.0388s ]
+SQL: SHOW COLUMNS FROM `xd_check_users` [ RunTime:0.0339s ]
+SQL: SELECT `end_time` FROM `xd_check_users` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0314s ]
+
+[ 2017-01-22T15:53:01+08:00 ] ::1 /xiadan/apis/heard_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+SQL: SHOW COLUMNS FROM `xd_check_online` [ RunTime:0.0187s ]
+SQL: UPDATE `xd_check_online` SET `update_time`='1485071581' WHERE `user_id` = 3 AND `heard_data` = 'fa22e52469508624517cd422d605cf38b0b8748a' [ RunTime:0.0273s ]
+SQL: SHOW COLUMNS FROM `xd_check_users` [ RunTime:0.0165s ]
+SQL: SELECT `end_time` FROM `xd_check_users` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0282s ]
+NOTIC: [8] Undefined variable: user_data D:\wamp\www\xiadan\Application\Home\Controller\ApisController.class.php 第 130 行.
+
+[ 2017-01-22T15:53:09+08:00 ] ::1 /xiadan/apis/heard_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000859s ]
+SQL: SHOW COLUMNS FROM `xd_check_online` [ RunTime:0.0161s ]
+SQL: UPDATE `xd_check_online` SET `update_time`='1485071589' WHERE `user_id` = 3 AND `heard_data` = 'fa22e52469508624517cd422d605cf38b0b8748a' [ RunTime:0.0294s ]
+SQL: SHOW COLUMNS FROM `xd_check_users` [ RunTime:0.0152s ]
+SQL: SELECT `end_time` FROM `xd_check_users` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0165s ]
+
+[ 2017-01-22T15:53:15+08:00 ] ::1 /xiadan/apis/heard_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+SQL: SHOW COLUMNS FROM `xd_check_online` [ RunTime:0.0189s ]
+SQL: UPDATE `xd_check_online` SET `update_time`='1485071595' WHERE `user_id` = 3 AND `heard_data` = 'fa22e52469508624517cd422d605cf38b0b8748a' [ RunTime:0.0266s ]
+SQL: SHOW COLUMNS FROM `xd_check_users` [ RunTime:0.0204s ]
+SQL: SELECT `end_time` FROM `xd_check_users` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0177s ]
+
+[ 2017-01-22T15:53:40+08:00 ] ::1 /xiadan/apis/heard_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000133s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+SQL: SHOW COLUMNS FROM `xd_check_online` [ RunTime:0.0233s ]
+SQL: UPDATE `xd_check_online` SET `update_time`='1485071620' WHERE `user_id` = 3 AND `heard_data` = 'fa22e52469508624517cd422d605cf38b0b8748a' [ RunTime:0.0344s ]
+SQL: SHOW COLUMNS FROM `xd_check_users` [ RunTime:0.0349s ]
+SQL: SELECT `end_time` FROM `xd_check_users` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0191s ]
+
+[ 2017-01-22T15:54:12+08:00 ] ::1 /xiadan/apis/heard_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+SQL: SHOW COLUMNS FROM `xd_check_online` [ RunTime:0.0192s ]
+SQL: UPDATE `xd_check_online` SET `update_time`='1485071652' WHERE `user_id` = 3 AND `heard_data` = 'fa22e52469508624517cd422d605cf38b0b8748a' [ RunTime:0.0302s ]
+SQL: SHOW COLUMNS FROM `xd_check_users` [ RunTime:0.0166s ]
+SQL: SELECT `end_time` FROM `xd_check_users` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0220s ]
+
+[ 2017-01-22T15:54:13+08:00 ] ::1 /xiadan/apis/heard_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+SQL: SHOW COLUMNS FROM `xd_check_online` [ RunTime:0.0185s ]
+SQL: UPDATE `xd_check_online` SET `update_time`='1485071653' WHERE `user_id` = 3 AND `heard_data` = 'fa22e52469508624517cd422d605cf38b0b8748a' [ RunTime:0.0285s ]
+SQL: SHOW COLUMNS FROM `xd_check_users` [ RunTime:0.0202s ]
+SQL: SELECT `end_time` FROM `xd_check_users` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0195s ]
+
+[ 2017-01-22T15:54:13+08:00 ] ::1 /xiadan/apis/heard_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+SQL: SHOW COLUMNS FROM `xd_check_online` [ RunTime:0.0153s ]
+SQL: UPDATE `xd_check_online` SET `update_time`='1485071653' WHERE `user_id` = 3 AND `heard_data` = 'fa22e52469508624517cd422d605cf38b0b8748a' [ RunTime:0.0196s ]
+
+[ 2017-01-22T15:54:14+08:00 ] ::1 /xiadan/apis/heard_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+SQL: SHOW COLUMNS FROM `xd_check_online` [ RunTime:0.0201s ]
+SQL: UPDATE `xd_check_online` SET `update_time`='1485071654' WHERE `user_id` = 3 AND `heard_data` = 'fa22e52469508624517cd422d605cf38b0b8748a' [ RunTime:0.0301s ]
+SQL: SHOW COLUMNS FROM `xd_check_users` [ RunTime:0.0222s ]
+SQL: SELECT `end_time` FROM `xd_check_users` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0194s ]
+
+[ 2017-01-22T15:54:15+08:00 ] ::1 /xiadan/apis/heard_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+SQL: SHOW COLUMNS FROM `xd_check_online` [ RunTime:0.0194s ]
+SQL: UPDATE `xd_check_online` SET `update_time`='1485071655' WHERE `user_id` = 3 AND `heard_data` = 'fa22e52469508624517cd422d605cf38b0b8748a' [ RunTime:0.0270s ]
+SQL: SHOW COLUMNS FROM `xd_check_users` [ RunTime:0.0154s ]
+SQL: SELECT `end_time` FROM `xd_check_users` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0174s ]
+
+[ 2017-01-22T15:54:15+08:00 ] ::1 /xiadan/apis/heard_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+SQL: SHOW COLUMNS FROM `xd_check_online` [ RunTime:0.0102s ]
+SQL: UPDATE `xd_check_online` SET `update_time`='1485071655' WHERE `user_id` = 3 AND `heard_data` = 'fa22e52469508624517cd422d605cf38b0b8748a' [ RunTime:0.0128s ]
+
+[ 2017-01-22T15:54:20+08:00 ] ::1 /xiadan/apis/heard_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+SQL: SHOW COLUMNS FROM `xd_check_online` [ RunTime:0.0268s ]
+SQL: UPDATE `xd_check_online` SET `update_time`='1485071660' WHERE `user_id` = 3 AND `heard_data` = 'fa22e52469508624517cd422d605cf38b0b8748a' [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `xd_check_users` [ RunTime:0.0288s ]
+SQL: SELECT `end_time` FROM `xd_check_users` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0289s ]
+
+[ 2017-01-22T15:54:20+08:00 ] ::1 /xiadan/apis/heard_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+SQL: SHOW COLUMNS FROM `xd_check_online` [ RunTime:0.0285s ]
+SQL: UPDATE `xd_check_online` SET `update_time`='1485071660' WHERE `user_id` = 3 AND `heard_data` = 'fa22e52469508624517cd422d605cf38b0b8748a' [ RunTime:0.0201s ]
+
+[ 2017-01-22T15:54:21+08:00 ] ::1 /xiadan/apis/heard_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+SQL: SHOW COLUMNS FROM `xd_check_online` [ RunTime:0.0054s ]
+SQL: UPDATE `xd_check_online` SET `update_time`='1485071661' WHERE `user_id` = 3 AND `heard_data` = 'fa22e52469508624517cd422d605cf38b0b8748a' [ RunTime:0.0153s ]
+SQL: SHOW COLUMNS FROM `xd_check_users` [ RunTime:0.0176s ]
+SQL: SELECT `end_time` FROM `xd_check_users` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0196s ]
+
+[ 2017-01-22T15:54:22+08:00 ] ::1 /xiadan/apis/heard_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+SQL: SHOW COLUMNS FROM `xd_check_online` [ RunTime:0.0174s ]
+SQL: UPDATE `xd_check_online` SET `update_time`='1485071662' WHERE `user_id` = 3 AND `heard_data` = 'fa22e52469508624517cd422d605cf38b0b8748a' [ RunTime:0.0435s ]
+SQL: SHOW COLUMNS FROM `xd_check_users` [ RunTime:0.0161s ]
+SQL: SELECT `end_time` FROM `xd_check_users` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0332s ]
+
+[ 2017-01-22T15:54:22+08:00 ] ::1 /xiadan/apis/heard_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+SQL: SHOW COLUMNS FROM `xd_check_online` [ RunTime:0.0296s ]
+SQL: UPDATE `xd_check_online` SET `update_time`='1485071662' WHERE `user_id` = 3 AND `heard_data` = 'fa22e52469508624517cd422d605cf38b0b8748a' [ RunTime:0.0280s ]
+
+[ 2017-01-22T15:54:23+08:00 ] ::1 /xiadan/apis/heard_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+SQL: SHOW COLUMNS FROM `xd_check_online` [ RunTime:0.0142s ]
+SQL: UPDATE `xd_check_online` SET `update_time`='1485071663' WHERE `user_id` = 3 AND `heard_data` = 'fa22e52469508624517cd422d605cf38b0b8748a' [ RunTime:0.0399s ]
+SQL: SHOW COLUMNS FROM `xd_check_users` [ RunTime:0.0166s ]
+SQL: SELECT `end_time` FROM `xd_check_users` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0178s ]
+
+[ 2017-01-22T15:54:24+08:00 ] ::1 /xiadan/apis/heard_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+SQL: SHOW COLUMNS FROM `xd_check_online` [ RunTime:0.0314s ]
+SQL: UPDATE `xd_check_online` SET `update_time`='1485071664' WHERE `user_id` = 3 AND `heard_data` = 'fa22e52469508624517cd422d605cf38b0b8748a' [ RunTime:0.0498s ]
+SQL: SHOW COLUMNS FROM `xd_check_users` [ RunTime:0.0358s ]
+SQL: SELECT `end_time` FROM `xd_check_users` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0166s ]
+
+[ 2017-01-22T15:54:25+08:00 ] ::1 /xiadan/apis/heard_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+SQL: SHOW COLUMNS FROM `xd_check_online` [ RunTime:0.0331s ]
+SQL: UPDATE `xd_check_online` SET `update_time`='1485071665' WHERE `user_id` = 3 AND `heard_data` = 'fa22e52469508624517cd422d605cf38b0b8748a' [ RunTime:0.0351s ]
+SQL: SHOW COLUMNS FROM `xd_check_users` [ RunTime:0.0337s ]
+SQL: SELECT `end_time` FROM `xd_check_users` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0315s ]
+
+[ 2017-01-22T15:54:26+08:00 ] ::1 /xiadan/apis/heard_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+SQL: SHOW COLUMNS FROM `xd_check_online` [ RunTime:0.0313s ]
+SQL: UPDATE `xd_check_online` SET `update_time`='1485071666' WHERE `user_id` = 3 AND `heard_data` = 'fa22e52469508624517cd422d605cf38b0b8748a' [ RunTime:0.0385s ]
+SQL: SHOW COLUMNS FROM `xd_check_users` [ RunTime:0.0302s ]
+SQL: SELECT `end_time` FROM `xd_check_users` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0182s ]
+
+[ 2017-01-22T15:54:27+08:00 ] ::1 /xiadan/apis/heard_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `xd_check_online` [ RunTime:0.0291s ]
+SQL: UPDATE `xd_check_online` SET `update_time`='1485071667' WHERE `user_id` = 3 AND `heard_data` = 'fa22e52469508624517cd422d605cf38b0b8748a' [ RunTime:0.0449s ]
+SQL: SHOW COLUMNS FROM `xd_check_users` [ RunTime:0.0172s ]
+SQL: SELECT `end_time` FROM `xd_check_users` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0365s ]
+
+[ 2017-01-22T15:54:27+08:00 ] ::1 /xiadan/apis/heard_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+SQL: SHOW COLUMNS FROM `xd_check_online` [ RunTime:0.0253s ]
+SQL: UPDATE `xd_check_online` SET `update_time`='1485071667' WHERE `user_id` = 3 AND `heard_data` = 'fa22e52469508624517cd422d605cf38b0b8748a' [ RunTime:0.0159s ]
+
+[ 2017-01-22T15:57:23+08:00 ] ::1 /xiadan/apis/heard_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+SQL: SHOW COLUMNS FROM `xd_check_online` [ RunTime:0.0179s ]
+SQL: UPDATE `xd_check_online` SET `update_time`='1485071843' WHERE `user_id` = 3 AND `heard_data` = 'fa22e52469508624517cd422d605cf38b0b8748a' [ RunTime:0.0402s ]
+SQL: SHOW COLUMNS FROM `xd_check_users` [ RunTime:0.0148s ]
+SQL: SELECT `end_time` FROM `xd_check_users` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0203s ]
+
+[ 2017-01-22T15:57:23+08:00 ] ::1 /xiadan/apis/heard_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `xd_check_online` [ RunTime:0.0165s ]
+SQL: UPDATE `xd_check_online` SET `update_time`='1485071843' WHERE `user_id` = 3 AND `heard_data` = 'fa22e52469508624517cd422d605cf38b0b8748a' [ RunTime:0.0236s ]
+
+[ 2017-01-22T15:57:24+08:00 ] ::1 /xiadan/apis/heard_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+SQL: SHOW COLUMNS FROM `xd_check_online` [ RunTime:0.0203s ]
+SQL: UPDATE `xd_check_online` SET `update_time`='1485071844' WHERE `user_id` = 3 AND `heard_data` = 'fa22e52469508624517cd422d605cf38b0b8748a' [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `xd_check_users` [ RunTime:0.0126s ]
+SQL: SELECT `end_time` FROM `xd_check_users` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0208s ]
+
+[ 2017-01-22T15:57:25+08:00 ] ::1 /xiadan/apis/heard_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+SQL: SHOW COLUMNS FROM `xd_check_online` [ RunTime:0.0249s ]
+SQL: UPDATE `xd_check_online` SET `update_time`='1485071845' WHERE `user_id` = 3 AND `heard_data` = 'fa22e52469508624517cd422d605cf38b0b8748a' [ RunTime:0.0236s ]
+SQL: SHOW COLUMNS FROM `xd_check_users` [ RunTime:0.0238s ]
+SQL: SELECT `end_time` FROM `xd_check_users` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0299s ]
+
+[ 2017-01-22T15:57:25+08:00 ] ::1 /xiadan/apis/heard_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+SQL: SHOW COLUMNS FROM `xd_check_online` [ RunTime:0.0285s ]
+SQL: UPDATE `xd_check_online` SET `update_time`='1485071845' WHERE `user_id` = 3 AND `heard_data` = 'fa22e52469508624517cd422d605cf38b0b8748a' [ RunTime:0.0176s ]
+
+[ 2017-01-22T15:57:26+08:00 ] ::1 /xiadan/apis/heard_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+SQL: SHOW COLUMNS FROM `xd_check_online` [ RunTime:0.0281s ]
+SQL: UPDATE `xd_check_online` SET `update_time`='1485071846' WHERE `user_id` = 3 AND `heard_data` = 'fa22e52469508624517cd422d605cf38b0b8748a' [ RunTime:0.0386s ]
+SQL: SHOW COLUMNS FROM `xd_check_users` [ RunTime:0.0221s ]
+SQL: SELECT `end_time` FROM `xd_check_users` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0172s ]
+
+[ 2017-01-22T15:57:27+08:00 ] ::1 /xiadan/apis/heard_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `xd_check_online` [ RunTime:0.0071s ]
+SQL: UPDATE `xd_check_online` SET `update_time`='1485071847' WHERE `user_id` = 3 AND `heard_data` = 'fa22e52469508624517cd422d605cf38b0b8748a' [ RunTime:0.0203s ]
+SQL: SHOW COLUMNS FROM `xd_check_users` [ RunTime:0.0070s ]
+SQL: SELECT `end_time` FROM `xd_check_users` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0081s ]
+
+[ 2017-01-22T15:57:27+08:00 ] ::1 /xiadan/apis/heard_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `xd_check_online` [ RunTime:0.0078s ]
+SQL: UPDATE `xd_check_online` SET `update_time`='1485071847' WHERE `user_id` = 3 AND `heard_data` = 'fa22e52469508624517cd422d605cf38b0b8748a' [ RunTime:0.0057s ]
+
+[ 2017-01-22T15:57:28+08:00 ] ::1 /xiadan/apis/heard_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+SQL: SHOW COLUMNS FROM `xd_check_online` [ RunTime:0.0369s ]
+SQL: UPDATE `xd_check_online` SET `update_time`='1485071848' WHERE `user_id` = 3 AND `heard_data` = 'fa22e52469508624517cd422d605cf38b0b8748a' [ RunTime:0.0407s ]
+SQL: SHOW COLUMNS FROM `xd_check_users` [ RunTime:0.0209s ]
+SQL: SELECT `end_time` FROM `xd_check_users` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0150s ]
+
+[ 2017-01-22T15:57:28+08:00 ] ::1 /xiadan/apis/heard_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `xd_check_online` [ RunTime:0.0149s ]
+SQL: UPDATE `xd_check_online` SET `update_time`='1485071848' WHERE `user_id` = 3 AND `heard_data` = 'fa22e52469508624517cd422d605cf38b0b8748a' [ RunTime:0.0322s ]
+
+[ 2017-01-22T15:57:29+08:00 ] ::1 /xiadan/apis/heard_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+SQL: SHOW COLUMNS FROM `xd_check_online` [ RunTime:0.0050s ]
+SQL: UPDATE `xd_check_online` SET `update_time`='1485071849' WHERE `user_id` = 3 AND `heard_data` = 'fa22e52469508624517cd422d605cf38b0b8748a' [ RunTime:0.0066s ]
+SQL: SHOW COLUMNS FROM `xd_check_users` [ RunTime:0.0066s ]
+SQL: SELECT `end_time` FROM `xd_check_users` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0043s ]
+
+[ 2017-01-22T15:57:52+08:00 ] ::1 /xiadan/apis/heard_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `xd_check_online` [ RunTime:0.0295s ]
+SQL: UPDATE `xd_check_online` SET `update_time`='1485071872' WHERE `user_id` = 3 AND `heard_data` = 'fa22e52469508624517cd422d605cf38b0b8748a' [ RunTime:0.0416s ]
+SQL: SHOW COLUMNS FROM `xd_check_users` [ RunTime:0.0286s ]
+SQL: SELECT `end_time` FROM `xd_check_users` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0260s ]
+
+[ 2017-01-22T15:57:53+08:00 ] ::1 /xiadan/apis/heard_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+SQL: SHOW COLUMNS FROM `xd_check_online` [ RunTime:0.0071s ]
+SQL: UPDATE `xd_check_online` SET `update_time`='1485071873' WHERE `user_id` = 3 AND `heard_data` = 'fa22e52469508624517cd422d605cf38b0b8748a' [ RunTime:0.0216s ]
+SQL: SHOW COLUMNS FROM `xd_check_users` [ RunTime:0.0071s ]
+SQL: SELECT `end_time` FROM `xd_check_users` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0068s ]
+
+[ 2017-01-22T15:57:54+08:00 ] ::1 /xiadan/apis/heard_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+SQL: SHOW COLUMNS FROM `xd_check_online` [ RunTime:0.0195s ]
+SQL: UPDATE `xd_check_online` SET `update_time`='1485071874' WHERE `user_id` = 3 AND `heard_data` = 'fa22e52469508624517cd422d605cf38b0b8748a' [ RunTime:0.0295s ]
+SQL: SHOW COLUMNS FROM `xd_check_users` [ RunTime:0.0178s ]
+SQL: SELECT `end_time` FROM `xd_check_users` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0215s ]
+
+[ 2017-01-22T15:58:00+08:00 ] ::1 /xiadan/apis/heard_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+SQL: SHOW COLUMNS FROM `xd_check_online` [ RunTime:0.0087s ]
+SQL: UPDATE `xd_check_online` SET `update_time`='1485071880' WHERE `user_id` = 3 AND `heard_data` = 'fa22e52469508624517cd422d605cf38b0b8748a' [ RunTime:0.0124s ]
+SQL: SHOW COLUMNS FROM `xd_check_users` [ RunTime:0.0127s ]
+SQL: SELECT `end_time` FROM `xd_check_users` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0119s ]
+
+[ 2017-01-22T15:58:02+08:00 ] ::1 /xiadan/apis/heard_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+SQL: SHOW COLUMNS FROM `xd_check_online` [ RunTime:0.0066s ]
+SQL: UPDATE `xd_check_online` SET `update_time`='1485071882' WHERE `user_id` = 3 AND `heard_data` = 'fa22e52469508624517cd422d605cf38b0b8748a' [ RunTime:0.0157s ]
+SQL: SHOW COLUMNS FROM `xd_check_users` [ RunTime:0.0071s ]
+SQL: SELECT `end_time` FROM `xd_check_users` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0073s ]
+
+[ 2017-01-22T15:58:02+08:00 ] ::1 /xiadan/apis/heard_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+SQL: SHOW COLUMNS FROM `xd_check_online` [ RunTime:0.0154s ]
+SQL: UPDATE `xd_check_online` SET `update_time`='1485071882' WHERE `user_id` = 3 AND `heard_data` = 'fa22e52469508624517cd422d605cf38b0b8748a' [ RunTime:0.0137s ]
+
+[ 2017-01-22T16:01:30+08:00 ] ::1 /xiadan/apis/heard_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+SQL: SHOW COLUMNS FROM `xd_check_online` [ RunTime:0.0080s ]
+SQL: UPDATE `xd_check_online` SET `update_time`='1485072089' WHERE `user_id` = 3 AND `heard_data` = 'fa22e52469508624517cd422d605cf38b0b8748a' [ RunTime:0.0443s ]
+SQL: SHOW COLUMNS FROM `xd_check_users` [ RunTime:0.0069s ]
+SQL: SELECT `end_time` FROM `xd_check_users` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0111s ]
+
+[ 2017-01-22T16:01:32+08:00 ] ::1 /xiadan/apis/heard_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+SQL: SHOW COLUMNS FROM `xd_check_online` [ RunTime:0.0059s ]
+SQL: UPDATE `xd_check_online` SET `update_time`='1485072092' WHERE `user_id` = 3 AND `heard_data` = 'fa22e52469508624517cd422d605cf38b0b8748a' [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `xd_check_users` [ RunTime:0.0054s ]
+SQL: SELECT `end_time` FROM `xd_check_users` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0057s ]
+
+[ 2017-01-22T16:01:35+08:00 ] ::1 /xiadan/apis/heard_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+SQL: SHOW COLUMNS FROM `xd_check_online` [ RunTime:0.0157s ]
+SQL: UPDATE `xd_check_online` SET `update_time`='1485072095' WHERE `user_id` = 3 AND `heard_data` = 'fa22e52469508624517cd422d605cf38b0b8748a' [ RunTime:0.0448s ]
+SQL: SHOW COLUMNS FROM `xd_check_users` [ RunTime:0.0134s ]
+SQL: SELECT `end_time` FROM `xd_check_users` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0180s ]
+
+[ 2017-01-22T16:01:37+08:00 ] ::1 /xiadan/apis/heard_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+SQL: SHOW COLUMNS FROM `xd_check_online` [ RunTime:0.0235s ]
+SQL: UPDATE `xd_check_online` SET `update_time`='1485072097' WHERE `user_id` = 3 AND `heard_data` = 'fa22e52469508624517cd422d605cf38b0b8748a' [ RunTime:0.0431s ]
+SQL: SHOW COLUMNS FROM `xd_check_users` [ RunTime:0.0184s ]
+SQL: SELECT `end_time` FROM `xd_check_users` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0331s ]
+

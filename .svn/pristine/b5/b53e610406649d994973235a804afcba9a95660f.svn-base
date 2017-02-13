@@ -1,0 +1,85 @@
+	<include file="Public/Template/Header.html" />
+  
+	<div class="am-g">
+		<div class="am-u-sm-12">
+			<p><a href="{:u('Index/showXf')}" type="submit" class="am-margin-bottom-xs am-btn am-btn-danger am-u-sm-12">消费明细</a></p>
+			<p><a href="{:u('Index/showOrder')}" type="button" class="am-margin-bottom-xs am-btn am-btn-success am-u-sm-12">下单记录</a></p>
+			<table class="am-text-nowrap am-table-compact am-table-radius am-table-bordered am-table am-table-hover">
+				<thead>
+					<tr>
+						<th class="am-u-sm-2">Id</th>
+						<th class="am-u-sm-2">用户</th>
+						<th class="am-u-sm-2">金额</th>
+						<th class="am-u-sm-4">时间</th>
+						<th class="am-u-sm-2">类型</th>
+					</tr>
+				</thead>
+				<tbody>
+					<?php $i=0; ?>
+					<foreach name="list" item="v">
+					<?php $i++; ?>
+					<tr>
+						<td class="am-u-sm-2 am-text-truncate">{$i}</td>
+						<td class="am-u-sm-2 am-text-truncate">{$v.muser}</td>
+						<td class="am-u-sm-2 am-text-truncate">{$v.mmoney}</td>
+						<td class="am-u-sm-4 am-text-truncate">{:date('Y-m-d:H:i:s',$v['mtime'])}</td>
+						<td class="am-u-sm-2 am-text-truncate"><if condition="$v.mtype eq 0"><span class="am-text-success">充值</span><elseif condition="$v.mtype eq 1"/><span class="am-text-danger">消费</span></if></td>
+					</tr>
+					</foreach>
+				</tbody>
+			</table><div class="am-cf">
+              
+              <div id="mpage" class="am-fl am-margin-bottom">
+              	<span>本页共({:count($list)})条记录.</span>
+              </div>
+              <div id="mpage" class="am-fr am-margin-bottom">
+				{$page}
+              </div>
+			  <style>
+					.current{
+						color:white;
+						text-align:center;
+						width:42px;
+						line-height:37px;
+						display:inline-table;
+						background-color: #0e90d2;
+						border-color: #0e90d2;
+						margin-right:5px;
+					}
+					.num,.next,.prev{
+						color:#0e90d2;
+						text-align:center;
+						width:42px;
+						line-height:37px;
+						display:inline-table;
+						background-color: #fff;
+						border: 1px solid #ddd;
+						margin-right:5px;
+					}
+			  </style>
+            </div>
+		</div>
+	</div>
+  
+  </footer>
+	<div style="position:fixed;bottom:0px;" class="am-btn-group am-btn-group-justify">
+		<a href="{:u('Index/showUser')}" class="am-text-xs am-btn am-btn-default" role="button"><span class="am-icon-skyatlas  am-text-danger"> <br>会员中心</span></a>
+		<a href="{:u('Index/index')}" class="am-text-xs am-btn am-btn-default" role="button"><span class="am-icon-paper-plane am-text-success"> <br>在线下单</span></a>
+		<a href="{:u('Index/showOrder')}" class="am-text-xs am-btn am-btn-default" role="button"><span class="am-icon-shopping-cart am-text-secondary"> <br>订单记录</span></a>
+	</div>
+</section>
+
+
+<!--开始编写你的代码-->
+
+<!--[if (gte IE 9)|!(IE)]><!-->
+<script src="__PUBLIC__/assets/js/jquery.min.js"></script>
+<!--<![endif]-->
+<!--[if lte IE 8 ]>
+<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="__PUBLIC__/assets/js/amazeui.ie8polyfill.min.js"></script>
+<![endif]-->
+<script src="__PUBLIC__/assets/js/amazeui.min.js"></script>
+</body>
+</html>

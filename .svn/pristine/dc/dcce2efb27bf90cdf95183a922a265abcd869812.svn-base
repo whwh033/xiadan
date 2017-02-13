@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>闪电直播助手</title>
+  <meta name="description" content="闪电直播助手在线平台,映客刷人气,熊猫tv刷人气,刷关注,支持多平台">
+  <meta name="keywords" content="映客人气平台,闪电直播助手,映客刷人气,熊猫tv刷人气,刷人气平台,刷关注,映客上热门">
+  <meta http-equiv="pragma" content="no-cache">
+  <meta http-equiv="cache-control" content="no-cache">
+  <meta http-equiv="expires" content="0">
+
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+
+  <meta name="format-detection" content="telephone=no">
+  <meta name="renderer" content="webkit">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="white">
+  <link rel="icon" type="image/png" href="__XIADAN__/dist/img/logoico.png">
+  <!-- Bootstrap 3.3.5 -->
+  <link rel="stylesheet" href="__XIADAN__/bootstrap/css/bootstrap.min.css">
+  <!-- Font Awesome -->
+
+  <link rel="stylesheet" href="http://apps.bdimg.com/libs/fontawesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="__XIADAN__/dist/css/font-awesome-animation.min.css">
+
+
+  <!-- Ionicons -->
+  <!-- <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">-->
+  <!-- Theme style -->
+  <link rel="stylesheet" href="__XIADAN__/dist/css/AdminLTE.min.css">
+  <link rel="stylesheet" href="__XIADAN__/dist/css/buttons.css">
+
+
+
+  <link rel="stylesheet" href="__XIADAN__/dist/css/skins/skin-blue.min.css">
+
+  <link href="__XIADAN__/dist/img/app-icon72x72@2x.png" rel="apple-touch-icon-precomposed"/>
+  <link rel="apple-touch-startup-image" media="(device-width: 320px) and (-webkit-device-pixel-ratio: 2)" href="__XIADAN__/dist/img/startup-640x1096.png">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="__XIADAN__/plugins/jQuery/html5shiv.min.js"></script>
+  <script src="__XIADAN__/plugins/jQuery/respond.min.js"></script>
+  <![endif]-->
+
+
+
+
+  <!-- jQuery 2.1.4 -->
+  <script src="__XIADAN__/plugins/jQuery/jQuery-2.1.4.min.js"></script>
+
+  <!-- Bootstrap 3.3.5 -->
+
+  <script src="__XIADAN__/bootstrap/js/bootstrap.min.js"></script>
+
+  <!-- AdminLTE App -->
+  <script src="__XIADAN__/dist/js/jquery.slimscroll.min.js"></script>
+  <script src="__XIADAN__/dist/js/app.min.js"></script>
+
+
+
+  <style type="text/css">
+    body,button, input, select,span, textarea,h1 ,h2, h3, h4, h5, h6 { font-family: Microsoft YaHei,'宋体' , Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;}
+  </style>
+
+</head>
+
+<body class="skin-blue sidebar-mini fixed">
+
+<div class="wrapper">
+
+  <!-- Main Header -->
+  <header class="main-header">
+
+    <!-- Logo -->
+    <a href="/" class="logo">
+      <!-- mini logo for sidebar mini 50x50 pixels -->
+      <span class="logo-mini"><img src="__XIADAN__/dist/img/logoico.png" style="width: 35px"></span>
+      <!-- logo for regular state and mobile devices -->
+      <span class="logo-lg">闪电直播助手</span>
+    </a>
+
+    <!-- Header Navbar -->
+    <nav class="navbar navbar-static-top" role="navigation">
+      <!-- Sidebar toggle button-->
+      <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+        <span class="sr-only">功能</span>
+      </a>
+
+      <!-- Navbar Right Menu -->
+      <div class="navbar-custom-menu">
+        <ul class="nav navbar-nav">
+          <!-- Menu Toggle Button -->
+          <li><a href="#">Hi，<b>{$users_data['username']}</b></a></li><li><a href="{:U('login/do_logout')}"><i class="fa fa-sign-out"></i></a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <!-- Left side column. contains the logo and sidebar -->
+  <aside class="main-sidebar">
+
+    <!-- sidebar: style can be found in sidebar.less -->
+    <section class="sidebar">
+
+      <!-- Sidebar user panel (optional) -->
+      <div class="user-panel">
+        <div class="pull-left image" style="height: 50px;">
+          <!--<img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">-->
+        </div>
+        <div class="pull-left info" style="left: 10px">
+          <p>{$users_data['username']}</p><a href="#"><i class="fa fa-battery-3 text-success"></i> 积分：<b><span id="nengliang">{$users_data['money']}</span></b></a>
+        </div>
+      </div>
+
+
+      <!-- /.search form -->
+
+      <!-- Sidebar Menu -->
+      <ul class="sidebar-menu">
+
+        <!-- Optionally, you can add icons to the links -->
+
+
+        <li class="treeview <if condition='strtolower(CONTROLLER_NAME) eq order '>active</if>">
+          <a href="#"><i class="fa fa-cloud text-red"></i> <span>订单中心</span> <i class="fa fa-angle-left pull-right"></i></a>
+          <ul class="treeview-menu">
+            <li class="<if condition='ACTION_NAME eq show_type '>active</if>" ><a href="{:U('order/show_type')}"><i class="fa fa-circle-o text-red"></i>提交订单</a></li>
+            <li><a href="ddlog.html"><i class="fa fa-circle-o text-red"></i>订单管理</a></li>
+          </ul>
+        </li>
+        <!--<li class="treeview">-->
+        <!--<a href="#"><i class="fa fa-bolt text-aqua"></i> <span>能量中心</span> <i class="fa fa-angle-left pull-right"></i></a>-->
+        <!--<ul class="treeview-menu">-->
+        <!--<li><a href="chongzhi.html"><i class="fa fa-circle-o text-aqua"></i>充能</a></li>-->
+        <!--<li><a href="chongzhilog.html"><i class="fa fa-circle-o text-aqua"></i>日志</a></li>-->
+        <!--</ul>-->
+        <!--</li>-->
+        <!--<li style="font-size: 16px"><a href="ms.html"><i class="fa fa-commenting-o text-green"></i> <span>吐槽/反馈</span></a></li>-->
+      </ul><!-- /.sidebar-menu -->
+    </section>
+    <!-- /.sidebar -->
+  </aside>

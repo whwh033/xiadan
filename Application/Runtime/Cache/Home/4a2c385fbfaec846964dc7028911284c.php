@@ -1,0 +1,111 @@
+<?php if (!defined('THINK_PATH')) exit();?>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>闪电直播助手 | 登录</title>
+	<meta name="description" content="闪电直播助手,刷奇秀人气,刷花椒人气,支持多平台">
+	<meta name="keywords" content="直播助手,刷人气平台,映客人气,熊猫人气,关注,闪电直播助手">
+
+	<!-- Tell the browser to be responsive to screen width -->
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+	<link rel="icon" type="image/png" href="/xiadan/Public/xiadan/dist/img/logoico.png">
+	<!-- Bootstrap 3.3.5 -->
+	<link rel="stylesheet" href="/xiadan/Public/xiadan/bootstrap/css/bootstrap.min.css">
+	<!-- Font Awesome -->
+
+	<!-- Ionicons -->
+	<!--<link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">-->
+	<!-- Theme style -->
+	<link rel="stylesheet" href="/xiadan/Public/xiadan/dist/css/AdminLTE.min.css">
+	<!-- iCheck -->
+	<link rel="stylesheet" href="/xiadan/Public/xiadan/dist/css/skins/skin-blue.min.css">
+
+	<!-- jQuery 2.1.4 -->
+	<script src="/xiadan/Public/xiadan/plugins/jQuery/jQuery-2.1.4.min.js"></script>
+	<!-- Bootstrap 3.3.5 -->
+	<script src="/xiadan/Public/xiadan/bootstrap/js/bootstrap.min.js"></script>
+	<!-- iCheck -->
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="/xiadan/Public/xiadan/plugins/jQuery/html5shiv.min.js"></script>
+	<script src="/xiadan/Public/xiadan/plugins/jQuery/respond.min.js"></script>
+	<![endif]-->
+	<script type="text/javascript" src="/xiadan/Public/xiadan/dist/js/encodePass.js"></script>
+	<script>
+		$(function(){
+			$("#user").keydown(function(e){
+				if(e.keyCode==13){
+					login(); //处理事件
+				}
+			});
+			$("#pass").keydown(function(e){
+				if(e.keyCode==13){
+					login();
+				}
+			});
+		});
+		function login() {
+			if ($("#user").val().length < 4) {
+				$("#loginmsg").html("用户名长度至少4位");
+				$("#user").focus();
+				return;
+			}
+			if ($("#pass").val().length < 8) {
+				$("#loginmsg").html("密码至少8位以上");
+				$("#pass").focus();
+				return;
+			}
+			$("#loginbtn").html("正在登录..");
+			$("#loginbtn").attr("disabled", true);
+			$.get("<?php echo U('do_loing');?>",
+					{
+						user: $("#user").val(),
+						pass: md5($("#pass").val()),
+						t:Math.random()
+					},
+					function (data) {
+						$("#loginbtn").html("登录");
+						$("#loginbtn").attr("disabled", false);
+						if(data.statusCode == 0){
+							location.href="<?php echo U('site/index');?>";
+						}else{
+							$("#loginmsg").html(data.msg);
+						}
+			},"JSON");
+		}
+	</script>
+
+</head>
+<body class="hold-transition login-page">
+
+<div class="login-box">
+	<div class="login-logo">
+		<img src="/xiadan/Public/xiadan/dist/img/logoico.png" style="width: 43px">
+		<a href="index.html">闪电直播助手</a>
+		<h5>网红的贴身小棉袄...</h5>
+	</div><!-- /.login-logo -->
+	<hr>
+	<div class="login-box-body">
+		<p id="loginmsg" class="text-danger"></p>
+
+		<div class="form-group has-feedback">
+			<input id="user" type="text" class="form-control input-lg"  placeholder="用户名">
+
+		</div>
+		<div class="form-group has-feedback">
+			<input id="pass" type="password" class="form-control input-lg" placeholder="密码">
+
+		</div>
+		<!--<div class="social-auth-links"><a href="reg.html" class="text-center">没有账号?注册一个</a></div>-->
+		<div class="text-center">
+			<button id="loginbtn" type="submit" class="btn btn-info btn-lg btn-block" onclick="login()">登录</button>
+		</div>
+
+	</div>
+</div>
+</body>
+</html>

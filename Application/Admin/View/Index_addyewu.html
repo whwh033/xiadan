@@ -1,0 +1,99 @@
+<div class="am-cf am-padding">
+	<div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">代理列表</strong> / <small>新增代理</small></div>
+</div>
+  <hr>
+  <div class="am-tabs am-margin" data-am-tabs>
+      <ul class="am-tabs-nav am-nav am-nav-tabs">
+        <li class="am-active"><a href="#tab1">业务信息</a></li>
+      </ul>
+          <form method="post" action="{:u('Index/actYewu')}" id="formUser" class="am-form" data-am-validator>
+
+      <div class="am-tabs-bd">
+        <div class="am-tab-panel am-fade am-in am-active" id="tab1">
+          <div class="am-g am-margin-top">
+            <div class="am-u-sm-4 am-u-md-2 am-text-right">业务上级(*)</div>
+            <div class="am-u-sm-8 am-u-md-10">
+				<div class="am-u-sm-8 am-u-md-4">
+				  <select name="mpid" data-am-selected="{btnSize: 'sm'}" required >
+					<option value="0">顶级业务</option>
+					<foreach name="yewuls" item="v">
+					<option value="{$v.id}">{$v.mname}</option>
+						<foreach name="v.cate" item="vv">
+						<option value="{$vv.id}">&nbsp;&nbsp;|--{$vv.mname}</option>
+							<foreach name="vv.cate" item="vvv">
+							<option value="{$vvv.id}">&nbsp;&nbsp;&nbsp;&nbsp;|---{$vvv.mname}</option>
+							</foreach>
+						</foreach>
+					</foreach>
+				  </select>
+				</div>
+            </div>
+          </div>
+          <div class="am-g am-margin-top">
+            <div class="am-u-sm-4 am-u-md-2 am-text-right">业务名称(*)</div>
+            <div class="am-u-sm-8 am-u-md-10">
+				<div class="am-u-sm-8 am-u-md-4">
+					<input type="text" name="mname" required class="am-input-sm">
+				</div>
+            </div>
+          </div>
+          <div class="am-g am-margin-top">
+            <div class="am-u-sm-4 am-u-md-2 am-text-right">业务描述</div>
+            <div class="am-u-sm-8 am-u-md-10">
+				<div class="am-u-sm-8 am-u-md-4">
+					<input type="text" name="mdes" class="am-input-sm">
+				</div>
+            </div>
+          </div>
+          <div class="am-g am-margin-top">
+            <div class="am-u-sm-4 am-u-md-2 am-text-right">业务单价</div>
+            <div class="am-u-sm-8 am-u-md-10">
+				<div class="am-u-sm-8 am-u-md-4">
+					<input type="text" name="mprice" class="am-input-sm">
+				</div>
+            </div>
+          </div>
+          <div class="am-g am-margin-top">
+            <div class="am-u-sm-4 am-u-md-2 am-text-right">业务库存</div>
+            <div class="am-u-sm-8 am-u-md-10">
+				<div class="am-u-sm-8 am-u-md-4">
+					<input type="text" name="mnum" class="am-input-sm">
+				</div>
+            </div>
+          </div>
+          <div class="am-g am-margin-top">
+            <div class="am-u-sm-4 am-u-md-2 am-text-right">注意事项</div>
+            <div class="am-u-sm-8 am-u-md-10">
+				<div class="am-u-sm-8 am-u-md-4">
+					<textarea class="" name="mattion" rows="5" id="doc-ta-1">请输入注意事项...</textarea>
+				</div>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+		<button id="saveUser" type="submit" class="am-margin-top am-btn am-btn-primary am-btn-xs">提交保存</button>
+          </form>
+    </div>
+
+    <div class="am-margin">
+    </div>
+<script>
+	$('#formUser').submit(function(){
+		var subData = $('#formUser').serialize();
+		$.post({
+			url:'{:u("Index/actYewu")}',
+			data:subData,
+			success:function(data){
+				if(data){
+					alert('添加成功！');
+				} else {
+					alert('添加失败！');
+				}
+			}
+		});
+		return false;
+	});
+</script>

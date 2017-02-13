@@ -1,0 +1,12 @@
+<?php
+namespace Home\Controller;
+use Think\Controller;
+class CommonController extends Controller {
+    public function _initialize(){
+		$m = m('web');
+		$this->web = $m->where(array('Id'=>1))->find();
+        if(!i('session.muser')){
+			redirect(u('Login/login'));
+		}
+    }
+}

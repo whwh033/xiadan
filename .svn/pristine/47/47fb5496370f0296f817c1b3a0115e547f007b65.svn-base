@@ -1,0 +1,134 @@
+<div class="am-cf am-padding">
+	<div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">订单管理</strong> / <small>改/查</small></div>
+</div>
+  <hr>
+  <div class="am-tabs am-margin" data-am-tabs>
+      <ul class="am-tabs-nav am-nav am-nav-tabs">
+        <li class="am-active"><a href="#tab1">订单信息</a></li>
+      </ul>
+          <form id="formUser" class="am-form">
+
+					<input type="hidden" name="Id" id="thatId" value="{$nowYeWu.id}" class="am-input-sm">
+      <div class="am-tabs-bd">
+        <div class="am-tab-panel am-fade am-in am-active" id="tab1">
+          <div class="am-g am-margin-top">
+            <div class="am-u-sm-4 am-u-md-2 am-text-right">下单用户</div>
+            <div class="am-u-sm-8 am-u-md-10">
+				<div class="am-u-sm-8 am-u-md-4">
+					<input type="text" name="muser" disabled value="{$user.muser}" class="am-input-sm">
+				</div>
+            </div>
+          </div>
+          <div class="am-g am-margin-top">
+            <div class="am-u-sm-4 am-u-md-2 am-text-right">业务分类(*)</div>
+            <div class="am-u-sm-8 am-u-md-10">
+				<div class="am-u-sm-8 am-u-md-4">
+				  <select name="motype" data-am-selected="{btnSize: 'sm'}">
+					<option value="0">顶级业务</option>
+					<foreach name="yewuls" item="v">
+					<option <if condition="$nowYeWu['motype'] eq $v['id']">selected</if> value="{$v.id}">{$v.mname}</option>
+						<foreach name="v.cate" item="vv">
+						<option <if condition="$nowYeWu['motype'] eq $vv['id']">selected</if> value="{$vv.id}">&nbsp;&nbsp;|--{$vv.mname}</option>
+							<foreach name="vv.cate" item="vvv">
+							<option <if condition="$nowYeWu['motype'] eq $vvv['id']">selected</if> value="{$vvv.id}">&nbsp;&nbsp;&nbsp;&nbsp;|---{$vvv.mname}</option>
+							</foreach>
+						</foreach>
+					</foreach>
+				  </select>
+				</div>
+            </div>
+          </div>
+          <div class="am-g am-margin-top">
+            <div class="am-u-sm-4 am-u-md-2 am-text-right">充值ID</div>
+            <div class="am-u-sm-8 am-u-md-10">
+				<div class="am-u-sm-8 am-u-md-4">
+					<input type="text" name="mczID" value="{$nowYeWu.mczid}" disabled class="am-input-sm">
+				</div>
+            </div>
+          </div>
+          <div class="am-g am-margin-top">
+            <div class="am-u-sm-4 am-u-md-2 am-text-right">数量</div>
+            <div class="am-u-sm-8 am-u-md-10">
+				<div class="am-u-sm-8 am-u-md-4">
+					<input type="text" name="mnum" value="{$nowYeWu.mnum}" disabled class="am-input-sm">
+				</div>
+            </div>
+          </div>
+          <div class="am-g am-margin-top">
+            <div class="am-u-sm-4 am-u-md-2 am-text-right">下单时间</div>
+            <div class="am-u-sm-8 am-u-md-10">
+				<div class="am-u-sm-8 am-u-md-4">
+					<input type="text" name="mnum" value="{:date('Y-m-d:H:i:s',$nowYeWu['mcreate_time'])}" disabled class="am-input-sm">
+				</div>
+            </div>
+          </div>
+
+
+          <div class="am-g am-margin-top">
+            <div class="am-u-sm-4 am-u-md-2 am-text-right">备注信息</div>
+            <div class="am-u-sm-8 am-u-md-10">
+				<div class="am-u-sm-8 am-u-md-4">
+					<textarea class="" disabled name="mbz" rows="5" id="doc-ta-1">{$nowYeWu.mbz}</textarea>
+				</div>
+            </div>
+          </div>
+
+          <div class="am-g am-margin-top">
+            <div class="am-u-sm-4 am-u-md-2 am-text-right">处理状态(*)</div>
+            <div class="am-u-sm-8 am-u-md-10">
+				<div class="am-u-sm-8 am-u-md-4">
+				  <select name="mstate" data-am-selected="{btnSize: 'sm'}">
+					<option <if condition="$nowYeWu.mstate eq 0">selected</if> value="0">未处理</option>
+					<option <if condition="$nowYeWu.mstate eq 1">selected</if> value="1">已完成</option>
+					<option <if condition="$nowYeWu.mstate eq 2">selected</if> value="2">已失效</option>
+					<option <if condition="$nowYeWu.mstate eq 3">selected</if> value="3">正在处理</option>
+				  </select>
+				</div>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+		<button id="saveUser" type="submit" class="am-margin-top am-btn am-btn-primary am-btn-xs">提交保存</button>
+		<button id="delUser" type="submit" class="am-margin-top am-btn am-btn-danger am-btn-xs">删除订单</button>
+          </form>
+    </div>
+
+    <div class="am-margin">
+    </div>
+<script>
+	$('#formUser').submit(function(){
+		var subData = $('#formUser').serialize();
+		$.post({
+			url:'{:u("Index/actEditDingdan")}',
+			data:subData,
+			success:function(data){
+				if(data){
+					alert('保存成功！');
+				} else {
+					alert('保存失败！');
+				}
+			}
+		});
+		return false;
+	});
+	$('#delUser').click(function(){
+		var ID = $('#thatId').val();
+		$.post({
+			url:'{:u("Index/actDelDingdan")}',
+			data:{id:ID},
+			success:function(data){
+				if(data){
+					alert('删除成功！');
+					$('.admin-content-body').load('{:u("Index/view_dingdan")}');
+				} else {
+					alert('删除失败！');
+				}
+			}
+		});
+		return false;
+	
+	});
+</script>

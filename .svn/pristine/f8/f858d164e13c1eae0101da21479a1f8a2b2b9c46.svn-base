@@ -1,0 +1,31 @@
+<include file="Public/Template/Headers.html" />
+<div class="content-wrapper">
+    <style>
+        .vertical-center{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+    </style>
+    <section class="content">
+        <div class="vertical-center visible-md visible-lg">
+            <div class="row">
+                <div class="col-md-4"><p><a href="{:U('show_type',array('type' => 1))}"><img src="__XIADAN__/dist/img/timg.jpg" class="img-responsive center-block img-rounded"></a></p></div>
+                <!--<div class="col-md-4"><p><a href="panda_add.html"><img src="__XIADAN__/dist\img\panda.jpg" class="img-responsive center-block img-rounded"></a></p></div>-->
+                <!--<div class="col-md-4"><p><a href="douyu_add.html"><img src="__XIADAN__/dist\img\douyu.png" class="img-responsive center-block img-rounded"></a></p></div>-->
+            </div>
+
+        </div>
+
+        <div class="visible-xs visible-sm">
+            <div class="row">
+                <div class="col-md-6"><p><a href="{:U('show_type',array('type' => 1))}"><img src="__XIADAN__/dist/img/timg.jpg" class="img-responsive center-block img-rounded"></a></p></div>
+                <!--<div class="col-xs-6"><p><a href="panda_add.html"><img src="__XIADAN__/dist\img\panda.jpg" class="img-responsive center-block img-rounded"></a></p></div>-->
+                <!--<div class="col-xs-6"><p><a href="douyu_add.html"><img src="__XIADAN__/dist\img\douyu.png" class="img-responsive center-block img-rounded"></a></p></div>-->
+            </div>
+        </div>
+    </section>
+</div>
+<include file="Public/Template/Footers.html" />

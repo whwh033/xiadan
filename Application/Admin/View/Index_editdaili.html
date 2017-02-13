@@ -1,0 +1,87 @@
+<div class="am-cf am-padding">
+	<div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">代理列表</strong> / <small>编辑代理</small></div>
+</div>
+  <hr>
+  <div class="am-tabs am-margin" data-am-tabs>
+      <ul class="am-tabs-nav am-nav am-nav-tabs">
+        <li class="am-active"><a href="#tab1">代理信息</a></li>
+      </ul>
+          <form id="formUser" class="am-form" data-am-validator>
+
+					<input type="hidden" name="Id" value="{$nowDaiLi.id}" class="am-input-sm">
+      <div class="am-tabs-bd">
+        <div class="am-tab-panel am-fade am-in am-active" id="tab1">
+          <div class="am-g am-margin-top">
+            <div class="am-u-sm-4 am-u-md-2 am-text-right">代理账号</div>
+            <div class="am-u-sm-8 am-u-md-10">
+				<div class="am-u-sm-8 am-u-md-4">
+					<input type="text" name="muser" value="{$nowDaiLi.muser}" minlength="6" placeholder="账号最少为6位" required class="am-input-sm">
+				</div>
+            </div>
+          </div>
+          <div class="am-g am-margin-top">
+            <div class="am-u-sm-4 am-u-md-2 am-text-right">代理密码</div>
+            <div class="am-u-sm-8 am-u-md-10">
+				<div class="am-u-sm-8 am-u-md-4">
+					<input type="text" name="mpass" value="***"  id="doc-vld-pwd-1" class="am-input-sm" minlength="6" required   >
+				</div>
+            </div>
+          </div>
+          <div class="am-g am-margin-top">
+            <div class="am-u-sm-4 am-u-md-2 am-text-right">确认密码</div>
+            <div class="am-u-sm-8 am-u-md-10">
+        <div class="am-u-sm-8 am-u-md-4">
+          <input type="text" name="" value="***" data-equal-to="#doc-vld-pwd-1"  minlength="6" required   >
+        </div>
+            </div>
+          </div>
+
+          <div class="am-g am-margin-top">
+            <div class="am-u-sm-4 am-u-md-2 am-text-right">用户积分</div>
+            <div class="am-u-sm-8 am-u-md-10">
+        <div class="am-u-sm-8 am-u-md-4">
+          <input type="text" name="mjifen" value="{$nowDaiLi.mjifen}" required   >
+        </div>
+            </div>
+          </div>
+
+          <div class="am-g am-margin-top">
+            <div class="am-u-sm-4 am-u-md-2 am-text-right">激活状态</div>
+
+            <div class="am-u-sm-8 am-u-md-10">
+    				<div class="am-u-sm-8 am-u-md-4">
+    					<label class="am-radio-inline">
+                <input type="radio" <if condition="$nowDaiLi['mstate'] eq 0">checked</if> value="0" name="mstate"  > 未激活
+              </label>
+              <label class="am-radio-inline">
+                <input type="radio" value="1" name="mstate" <if condition="$nowDaiLi['mstate'] eq 1">checked</if> > 已激活
+              </label>
+    				</div>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+		<button id="saveUser" type="submit" class="am-margin-top am-btn am-btn-primary am-btn-xs">提交保存</button>
+          </form>
+    </div>
+
+<script>
+	$('#formUser').submit(function(){
+		var subData = $('#formUser').serialize();
+		$.post({
+			url:'{:u("Index/actEditUser")}',
+			data:subData,
+			success:function(data){
+				if(data){
+					alert('保存成功！');
+				} else {
+					alert('保存失败！');
+				}
+			}
+		});
+		return false;
+	});
+</script>

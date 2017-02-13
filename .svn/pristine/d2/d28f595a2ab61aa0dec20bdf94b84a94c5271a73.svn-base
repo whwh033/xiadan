@@ -1,0 +1,167 @@
+<div class="am-cf am-padding">
+    <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">订单列表</strong> /
+        <small>全部订单</small>
+    </div>
+</div>
+<hr>
+<div class="am-g">
+    <div class="am-u-sm-12 am-u-md-6">
+        <div class="am-btn-toolbar">
+            <div class="am-u-sm-12 am-btn-group am-btn-group-xs">
+
+                <form class="am-u-sm-12 am-form-inline" role="form">
+
+                    <div class="am-form-group">
+                        <a href="{:u('Index/new_dingdan',array('status'=>-1))}" class="menu_class am-btn-default am-btn click-a"><span class="am-icon-plus"></span> 等待处理</a>
+                    </div>
+
+                    <div class="am-form-group">
+                        <a href="{:u('Index/new_dingdan',array('status'=>1))}"  class="menu_class am-btn-default am-btn click-a"><span class="am-icon-plus"></span> 正在处理</a>
+                    </div>
+
+                    <div class="am-form-group">
+                        <a href="{:u('Index/new_dingdan',array('status'=>2))}"  class="menu_class am-btn-default am-btn click-a"><span class="am-icon-plus"></span> 已经完成</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="am-g">
+    <div class="am-u-sm-12">
+        <table class="am-table am-table-striped am-table-hover table-main">
+            <thead>
+            <tr>
+                <th class="table-check"><input type="checkbox"/></th>
+                <th class="table-ids">订单号</th>
+                <th class="table-title">下单者</th>
+                <th class="table-type">房间号</th>
+                <th class="table-author am-hide-sm-only">总人气数</th>
+                <th class="table-author am-hide-sm-only">当前人气数</th>
+                <th class="table-type">房间总人数</th>
+                <th class="table-type">开始时间</th>
+                <th class="table-type">结束时间</th>
+                <th class="table-set">状态</th>
+            </tr>
+            </thead>
+            <tbody id="list_container">
+            <foreach name="mlist" item="v">
+                <tr>
+                    <td><input type="checkbox"/></td>
+                    <td><a class="click-a" href="{:u('Index/rboot',array('renwu_id'=>$v['id']))}" >{$v.order_num}</a></td>
+                    <td>{$v.muser}</td>
+                    <td>{$v.room_num}</td>
+                    <td class="am-hide-sm-only">{$v.number}</td>
+                    <td class="am-hide-sm-only">{$v.cur_numbers}</td>
+                    <td class="am-hide-sm-only">{$v.cur_number}</td>
+                    <td class="am-hide-sm-only">{$v.start_time|date="Y-m-d H:i:s",###}</td>
+                    <td class="am-hide-sm-only">{$v.end_time|date="Y-m-d H:i:s",###}</td>
+                    <td id="status{$v.id}">
+                        <switch name="v.status">
+                            <case value="0"><select onchange="change({$v['id']})"><option checked value="0">等待处理</option><option value="2">已完成</option></select></case>
+                            <case value="1"><select onchange="change({$v['id']})"><option checked value="1">正在处理</option><option value="2">已完成</option></select></case>
+                            <case value="2">已经完成</case>
+                            <default />default
+                        </switch>
+                    </td>
+                </tr>
+
+            </foreach>
+            </tbody>
+        </table>
+        <div class="am-cf">
+            <div id="mpage" class="am-fr am-margin-bottom">
+                {$mpage}
+            </div>
+            <style>
+                .current {
+                    color: white;
+                    text-align: center;
+                    width: 42px;
+                    line-height: 37px;
+                    display: inline-table;
+                    background-color: #0e90d2;
+                    border-color: #0e90d2;
+                    margin-right: 5px;
+                }
+
+                .num, .next, .prev {
+                    color: #0e90d2;
+                    text-align: center;
+                    width: 42px;
+                    line-height: 37px;
+                    display: inline-table;
+                    background-color: #fff;
+                    border: 1px solid #ddd;
+                    margin-right: 5px;
+                }
+            </style>
+        </div>
+    </div>
+    <script type="text/javascript">
+	
+        function change(i){
+            $.get("{:U('index/changeStatus')}","id="+i,function(data){
+                alert(data.msg);
+                if(data.code == 0){
+                    $("#status"+i).html("已经完成");
+                }
+            },"JSON");
+
+        }
+
+        $('.click-a').on('click', function () {
+            $('.admin-content-body').load($(this).attr('href'));
+            return false;
+        });
+		$('#list_container').on('click', '.editYeWu', function () {
+            $('.admin-content-body').load($(this).attr('href'));
+            return;
+        });
+
+        $('#addUser').click(function () {
+            $('.admin-content-body').load('{:u("Index/view_adduser")}');
+        });
+        $('#mpage').on('click', 'a', function () {
+            var url = $(this).attr('href');
+            $.get({
+                url: url,
+                data: {action: 'ajax'},
+                dataType: "json",
+                success: function (data) {
+                    var mlist = "";
+                    if(data.mlist != ""){
+                        var msg = "";
+                        $.each(data.mlist, function(index,val){
+                            if(val.status == 0){
+                                msg ="<select onchange='change("+val.id+")' ><option checked value='0'>等待处理</option><option value='2'>已完成</option></select>";
+                            }else if(val.status == 1){
+                                msg ="<select onchange='change("+val.id+")' ><option checked value='1'>正在处理</option><option value='2'>已完成</option></select>";
+                            }else if(val.status == 2){
+                                msg ="已经完成";
+                            }else{
+                                msg ="";
+                            }
+                            mlist +='<tr>'+
+                                        '<td><input type="checkbox"/></td>'+
+                                        "<td><a class=\"click-a\" href=\"javascript:void(0);\" url=\"{:u('Index/rboot')}?renwu_id="+val.id+"\">"+val.order_num+"</a></td>"+
+                                        '<td>'+val.muser+'</td>'+
+                                        '<td>'+val.room_num+'</td>'+
+                                        '<td class="am-hide-sm-only">'+val.number+'</td>'+
+                                        '<td class="am-hide-sm-only">'+val.cur_numbers+'</td>'+
+                                        '<td class="am-hide-sm-only">'+val.cur_number+'</th>'+
+                                        '<td class="am-hide-sm-only">'+$.myTime.UnixToDate(val.start_time, true)+'</th>'+
+                                        '<td class="am-hide-sm-only">'+$.myTime.UnixToDate(val.end_time,true)+'</th>'+
+                                        '<td id="'+val.id+'">'+msg+'</td>'+
+                                    '</tr>';
+                        });
+                    }
+                    $('#list_container').html(mlist);
+                    $('#mpage').html(data.mpage);
+                }
+            });
+            return false;
+        });
+    </script>
+</div>

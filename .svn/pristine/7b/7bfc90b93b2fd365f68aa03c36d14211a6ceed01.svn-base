@@ -1,0 +1,15 @@
+<?php
+return array(
+	//'配置项'=>'配置值'
+	'TMPL_FILE_DEPR'=>'_',
+	'DB_USER' => 'root',
+	'DB_HOST' => 'localhost',
+	'DB_TYPE' => 'mysql',
+	'DB_PWD' => 'shiyiroot..',
+	'DB_PREFIX' => 'xd_',
+	'DB_NAME' => 'xiadan',
+	'URL_MODEL'          => '2', //URL模式
+	'MODULE_ALLOW_LIST'    =>    array('Home','Admin'),
+	'DEFAULT_MODULE' => 'Home', //默认模块
+	'URL_CASE_INSENSITIVE'  =>  true,
+);

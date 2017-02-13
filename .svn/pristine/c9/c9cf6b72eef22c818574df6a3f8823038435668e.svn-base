@@ -1,0 +1,55 @@
+	<include file="Public/Template/Header.html" />
+  <form method="post" action="{:u('Index/actCz')}" class="am-form" data-am-validator>
+  <fieldset>
+	<div class="am-g am-padding-vertical-xs am-margin-top-sm"  style="background: white;color:black;">
+	 <a href="#" class="am-u-sm-12" data-am-modal="{target: '#my-alert'}">{$web.mweb_news_title}</a>
+	</div>
+	<!--这里显示窗口内容-->
+		<div class="am-modal am-modal-alert" tabindex="-1" id="my-alert">
+		  <div class="am-modal-dialog">
+		    <div class="am-modal-hd">{$web.mweb_news_title}</div>
+		    <div class="am-modal-bd">
+		      {$web.mweb_news_content}
+		    </div>
+		    <div class="am-modal-footer">
+		      <span class="am-modal-btn">确定</span>
+		    </div>
+		  </div>
+		</div>
+	<!--这里显示窗口内容-->
+	<div class="am-g am-margin-top-sm"  style="background: white;color:black;">
+		<div class="am-g am-margin-sm am-text-center">
+		  <div class="am-u-sm-4">用户<br/><span class="am-text-danger">{$user['muser']}</span></div>
+		  <div class="am-u-sm-4">积分<br/><span class="am-text-danger">{$user['mjifen']}</span></div>
+		  <div class="am-u-sm-4">订单<br/><span class="am-text-danger">{$user['count']}</span></div>
+		</div>
+	</div>
+	<div class="am-form-group am-margin-top-sm">
+	  <input type="text" class="" name="mcodeid" id="doc-ipt-text-1" minlength="32" maxlength="32" placeholder="请输入充值卡Token" required />
+	</div>
+	<p><button type="submit" class="am-btn am-btn-primary am-u-sm-12">提交订单</button></p>
+	</fieldset>
+	</form>
+  
+  </footer>
+	<div style="position:fixed;bottom:0px;" class="am-btn-group am-btn-group-justify">
+		<a href="{:u('Index/showUser')}" class="am-text-xs am-btn am-btn-default" role="button"><span class="am-icon-skyatlas  am-text-danger"> <br>会员中心</span></a>
+		<a href="{:u('Index/index')}" class="am-text-xs am-btn am-btn-default" role="button"><span class="am-icon-paper-plane am-text-success"> <br>在线下单</span></a>
+		<a href="{:u('Index/showOrder')}" class="am-text-xs am-btn am-btn-default" role="button"><span class="am-icon-shopping-cart am-text-secondary"> <br>订单记录</span></a>
+	</div>
+</section>
+
+
+<!--开始编写你的代码-->
+
+<!--[if (gte IE 9)|!(IE)]><!-->
+<script src="__PUBLIC__/assets/js/jquery.min.js"></script>
+<!--<![endif]-->
+<!--[if lte IE 8 ]>
+<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="__PUBLIC__/assets/js/amazeui.ie8polyfill.min.js"></script>
+<![endif]-->
+<script src="__PUBLIC__/assets/js/amazeui.min.js"></script>
+</body>
+</html>

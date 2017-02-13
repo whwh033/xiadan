@@ -1,0 +1,74 @@
+<div class="am-cf am-padding">
+	<div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">卡密管理</strong> / <small>新增卡密</small></div>
+</div>
+  <hr>
+  <div class="am-tabs am-margin" data-am-tabs>
+      <ul class="am-tabs-nav am-nav am-nav-tabs">
+        <li class="am-active"><a href="#tab1">卡密信息</a></li>
+      </ul>
+          <form method="post" action="{:u('Index/actYewu')}" id="formUser" data-am-validator class="am-form">
+
+      <div class="am-tabs-bd">
+        <div class="am-tab-panel am-fade am-in am-active" id="tab1">
+			 <div class="am-g am-margin-top">
+				<div class="am-u-sm-4 am-u-md-2 am-text-right">卡密面值</div>
+				<div class="am-u-sm-8 am-u-md-10">
+					<div class="am-u-sm-8 am-u-md-4">
+						<input type="text" name="mprice" class="am-input-sm" minlength="1" placeholder="请输入正确的充值ID" required>
+						<button id="AddKAmi" type="submit" class="am-margin-top am-btn am-btn-primary am-btn-xs">生成卡密</button>
+					</div>
+				</div>
+			  </div>
+			 <div class="am-g am-margin-top">
+				<div class="am-u-sm-4 am-u-md-2 am-text-right"></div>
+				<div class="am-u-sm-8 am-u-md-10">
+					<div id="rescopy" class="am-u-sm-8 am-u-md-4">
+						<input id="mianzhi" type="text" name="" disabled class="am-input-sm">
+						<a id="copyToken"  data-clipboard-target="mianzhi" class="am-btn am-btn-success am-btn-xs">复制卡密</a>
+					</div>
+				</div>
+			  </div>
+        </div>
+
+      </div>
+          </form>
+    </div>
+
+    <div class="am-margin">
+    </div>
+    <script type="text/javascript">
+    	
+	 SWL_URL = '__PUBLIC__/assets/js/ZeroClipboard.swf';
+    </script>
+<script type="text/javascript" src="__PUBLIC__/assets/js/ZeroClipboard.js"></script>
+<script>
+
+		init();
+	$('#formUser').submit(function(){
+		var subData = $('#formUser').serialize();
+		$.post({
+			url:'{:u("Index/actAddKami")}',
+			data:subData,
+			dataType:'Json',
+			success:function(data){
+				$('#mianzhi').val(data.token);
+				clip.setText($('#mianzhi').val()); // 设置要复制的文本。
+			}
+		});
+		return false;
+	});
+	 $("#rescopy").on('click','#copyToken',function(){
+		return false;
+	 });
+	 // ----------------------------------------------
+	function init() {
+		clip = new ZeroClipboard.Client(); // 新建一个对象
+		clip.setHandCursor( true );
+		clip.addEventListener( "mouseUp", function(client) {
+			alert("复制卡号成功！");
+		});
+		// 注册一个 button，参数为 id。点击这个 button 就会复制。
+		//这个 button 不一定要求是一个 input 按钮，也可以是其他 DOM 元素。
+		clip.glue("copyToken"); // 和上一句位置不可调换
+	}
+</script>

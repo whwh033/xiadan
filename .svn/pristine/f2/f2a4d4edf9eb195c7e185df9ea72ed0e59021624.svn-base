@@ -1,0 +1,21 @@
+</footer>
+<div style="position:fixed;bottom:0px;font-size:10px;" class="am-btn-group am-btn-group-justify">
+  <a href="{:u('Index/showUser')}" class="am-text-xs am-btn am-btn-default" role="button"><span class="am-icon-skyatlas  am-text-danger"> <br>会员中心</span></a>
+  <a href="{:u('Index/index')}" class="am-text-xs am-btn am-btn-default" role="button"><span class="am-icon-paper-plane am-text-success"> <br>在线下单</span></a>
+  <a href="{:u('Index/showOrder')}" class="am-text-xs am-btn am-btn-default" role="button"><span class="am-icon-shopping-cart am-text-secondary"> <br>订单记录</span></a>
+</div>
+</section>
+
+<!--开始编写你的代码-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<script src="__PUBLIC__/assets/js/jquery.min.js"></script>
+<!--<![endif]-->
+<!--[if lte IE 8 ]>
+<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="__PUBLIC__/assets/js/amazeui.ie8polyfill.min.js"></script>
+<![endif]-->
+<script src="__PUBLIC__/assets/js/amazeui.min.js"></script>
+
+</body>
+</html>

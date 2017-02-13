@@ -1,0 +1,164 @@
+	<include file="Public/Template/Header.html" />
+  <form method="post" action="{:u('Index/actSubmit')}" class="am-form" data-am-validator>
+  <fieldset>
+	<div class="am-g am-padding-vertical-xs am-margin-top-sm"  style="background: white;color:black;">
+	 <a href="#" class="am-u-sm-12" data-am-modal="{target: '#my-alert'}">{$web.mweb_news_title}</a>
+	</div>
+	<!--这里显示窗口内容-->
+		<div class="am-modal am-modal-alert" tabindex="-1" id="my-alert">
+		  <div class="am-modal-dialog">
+		    <div class="am-modal-hd">{$web.mweb_news_title}</div>
+		    <div class="am-modal-bd">
+		      {$web.mweb_news_content}
+		    </div>
+		    <div class="am-modal-footer">
+		      <span class="am-modal-btn">确定</span>
+		    </div>
+		  </div>
+		</div>
+	<!--这里显示窗口内容-->
+	<div class="am-g am-margin-top-sm"  style="background: white;color:black;">
+	  <div class="am-u-sm-12 am-margin-top-sm">
+	  
+		<div class="am-form-group">
+		  <select id="doc-select-1">
+			<foreach name="mlist1" item="v">
+				<option value="{$v.id}">{$v.mname}</option>
+			</foreach>
+		  </select>
+		  <span class="am-form-caret"></span>
+		</div>
+		<div class="am-form-group">
+		  <select id="doc-select-2">
+			<foreach name="mlist2" item="v">
+				<option value="{$v.id}">{$v.mname}</option>
+			</foreach>
+		  </select>
+		  <span class="am-form-caret"></span>
+		</div>
+		<div class="am-form-group">
+		  <select name="motype" id="doc-select-3">
+			<foreach name="mlist3" item="v">
+				<option value="{$v.id}">{$v.mname}</option>
+			</foreach>
+		  </select>
+		  <span class="am-form-caret"></span>
+		</div>
+		<!--
+		<div class="am-form-group">
+		  <select name="mnum" id="doc-select-4">
+			<option value="1">1份</option>
+			<option value="2">2份</option>
+			<option value="3">3份</option>
+			<option value="4">4份</option>
+			<option value="5">5份</option>
+			<option value="6">6份</option>
+			<option value="7">7份</option>
+			<option value="8">8份</option>
+			<option value="9">9份</option>
+			<option value="10">10份</option>
+		  </select>
+		  <span class="am-form-caret"></span>
+		</div>
+		-->
+		<div class="am-form-group"><input name="mnum" value="0" /></div>
+	  </div>
+	</div>
+  
+	<div class="am-g am-padding-vertical-xs am-margin-top-sm"  style="background: white;color:black;">
+	  <div class="am-u-sm-12"><span id="it_mdj" style="display:none;">{$mlist3[0]['mprice']}</span><span id="it_mdes">{$mlist3[0]['mdes']}</span> × <span id="it_num">1</span> = 积分<span id="it_mprice">{$mlist3[0]['mprice']}</span></div>
+	</div>
+	<div class="am-g am-padding-vertical-xs am-margin-top-sm"  style="background: white;color:black;">
+	  <div class="am-u-sm-12 am-text-danger"><span id="mzysx">{:html_entity_decode($mlist3[0]['mattion'])}</span></div>
+	</div>
+	<div class="am-form-group am-margin-top-sm">
+	  <input type="text" class="" name="mczID" id="doc-ipt-text-1" minlength="1" placeholder="请填写正确操作ID" required>
+	</div>
+	<div class="am-form-group">
+	  <textarea name="mbz" class="" rows="5" id="doc-ta-1" minlength="1" placeholder="【请填写当前开始数量，漏填或虚假不负责补单】备注您需要备注的内容" required ></textarea>
+	</div>
+	<p><button type="submit" class="am-btn am-btn-primary am-u-sm-12">提交订单</button></p>
+	</fieldset>
+	</form>
+  
+  </footer>
+	<div style="position:fixed;bottom:0px;font-size:10px;" class="am-btn-group am-btn-group-justify">
+		<a href="{:u('Index/showUser')}" class="am-text-xs am-btn am-btn-default" role="button"><span class="am-icon-skyatlas  am-text-danger"> <br>会员中心</span></a>
+		<a href="{:u('Index/index')}" class="am-text-xs am-btn am-btn-default" role="button"><span class="am-icon-paper-plane am-text-success"> <br>在线下单</span></a>
+		<a href="{:u('Index/showOrder')}" class="am-text-xs am-btn am-btn-default" role="button"><span class="am-icon-shopping-cart am-text-secondary"> <br>订单记录</span></a>
+	</div>
+</section>
+
+
+<!--开始编写你的代码-->
+
+<!--[if (gte IE 9)|!(IE)]><!-->
+<script src="__PUBLIC__/assets/js/jquery.min.js"></script>
+<!--<![endif]-->
+<!--[if lte IE 8 ]>
+<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="__PUBLIC__/assets/js/amazeui.ie8polyfill.min.js"></script>
+<![endif]-->
+<script src="__PUBLIC__/assets/js/amazeui.min.js"></script>
+<script type="text/javascript">
+	$('.am-form-group').on('change','#doc-select-1',function(){
+		var pid = $(this).val();
+		$.post({
+			url:'{:u("Index/showNav")}',
+			dataType: "json", 
+			data:{pid:pid,type:2},
+			success:function(data){
+				$('#doc-select-2').html("");
+				$('#doc-select-2').html(data.mlist.mlist1);
+				$('#doc-select-3').html(data.mlist.mlist2);
+				$('#it_mdes').html(data.mitem.mdes);
+				$('#it_mprice').html(data.mitem.mprice);
+				$('#it_mdj').html(data.mitem.mprice);
+				$('#mzysx').html(data.mitem.mattion)
+			}
+		});
+		
+	});
+	$('.am-form-group').on('change','#doc-select-2',function(){
+		var pid = $(this).val();
+		$.post({
+			url:'{:u("Index/showNav")}',
+			dataType: "json", 
+			data:{pid:pid,type:1},
+			success:function(data){
+				$('#doc-select-3').html("");
+				$('#doc-select-3').html(data.mlist.mlist1);
+				$('#it_mdes').html(data.mitem.mdes);
+				$('#it_mprice').html(data.mitem.mprice);
+				$('#it_mdj').html(data.mitem.mprice);
+				$('#mzysx').html(data.mitem.mattion)
+			}
+		});
+		
+	});
+	$('.am-form-group').on('change','#doc-select-3',function(){
+		var pid = $(this).val();
+		$.post({
+			url:'{:u("Index/showNav")}',
+			dataType: "json", 
+			data:{pid:pid,type:3},
+			success:function(data){
+				$('#it_mdes').html(data.mitem.mdes);
+				$('#it_mprice').html(data.mitem.mprice);
+				$('#it_mdj').html(data.mitem.mprice);
+				$('#mzysx').html(data.mitem.mattion)
+			}
+		});
+		
+	});
+	$('.am-form-group').on('change','#doc-select-4',function(){
+		var val = $(this).val();
+		$('#it_num').html(val);
+		var price = $('#it_mdj').html();
+		var total = price * val
+		$('#it_mprice').html(total);
+	});
+</script>
+</body>
+</html>

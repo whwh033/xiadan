@@ -1,0 +1,124 @@
+<?php
+namespace Home\Controller;
+use Think\Controller;
+
+class ApiController extends Controller {
+
+	/**
+	 * Ajax方式返回数据到客户端
+	 * @access protected
+	 * @param mixed $data 要返回的数据
+	 * @param String $type AJAX返回数据格式
+	 * @return void
+	 */
+	protected function ajaxReturn($data,$type='') {
+		if(empty($type)) $type  =   C('DEFAULT_AJAX_RETURN');
+		switch (strtoupper($type)){
+			case 'JSON' :
+				// 返回JSON数据格式到客户端 包含状态信息
+				header('Content-Type:application/json; charset=utf-8');
+				exit(json_encode($data));
+			case 'XML'  :
+				// 返回xml格式数据
+				header('Content-Type:text/xml; charset=utf-8');
+				exit(xml_encode($data));
+			case 'JSONP':
+				// 返回JSON数据格式到客户端 包含状态信息
+				header('Content-Type:application/json; charset=utf-8');
+				$handler  =   isset($_GET[C('VAR_JSONP_HANDLER')]) ? $_GET[C('VAR_JSONP_HANDLER')] : C('DEFAULT_JSONP_HANDLER');
+				exit($handler.'('.json_encode($data).');');
+			case 'EVAL' :
+				// 返回可执行的js脚本
+				header('Content-Type:text/html; charset=utf-8');
+				exit($data);
+		}
+	}
+
+	/**
+	 * 上传账号
+	 */
+	public function up_user_data(){
+		$msg = isset($_POST['msg'])?$_POST['msg']:'';
+		if(!$msg){
+			$this->ajaxReturn(array('code' => -1, 'msg' => '上传失败'));
+		}
+		$msg = json_decode($msg, true);
+		if(!is_array($msg)){
+			$this->ajaxReturn(array('code' => -1, 'msg' => '上传数据错误'));
+		}
+		foreach($msg as &$v){
+			if(!isset($v['email']) || !isset($v['pass']) || !isset($v['cookie']) || !isset($v['user_id']) || !isset($v['show_id']) || !isset($v['nick_name']) || !isset($v['authcookie'])  || !isset($v['authcookie']) ){
+				$this->ajaxReturn(array('code' => -1, 'msg' => '参数错误..'));
+			}
+			$v['add_time'] = time();
+		}
+
+		$users = M('users')->addAll($msg);
+		if($users){
+			$this->ajaxReturn(array('code' => 0, 'msg' => '添加成功'));
+		}
+		$this->ajaxReturn(array('code' => -1, 'msg' => '添加失败'));
+	}
+
+	/**
+	 * 获取帐号
+	 */
+	public function get_user_data(){
+		$nums = isset($_POST['nums'])?$_POST['nums']:1;
+		$users = M('users')->order("num asc")->limit($nums)->select();
+		if($users){
+			foreach($users as $v){
+				$id[] = $v['id'];
+			}
+			$where['id'] = array('IN', implode(',',$id));
+			M('users')->where($where)->setInc('num');
+		}
+		$this->ajaxReturn(array('code' => 0, 'user_list' => $users));
+	}
+
+	/**
+	 * 检查更新
+	 */
+	public function check_update(){
+		$ret = M('version')->order("id desc")->find();
+		$this->ajaxReturn(array('code' => 0, 'version' => $ret));
+	}
+
+
+	/**
+	 * 获取唯一机器号
+	 */
+	public function get_card_id(){
+		$client_ip = get_client_ip();
+		$where['users'] = array('like', "%$client_ip%");
+		$machine = M("machine")->order("id desc")->where($where)->find();
+		$data = array(
+			'ip' => $client_ip,
+			'add_time' => time(),
+			'update_time' => time(),
+		);
+		if($machine){
+			$pix_arr = explode('-',$machine['ip']);
+			$pic = isset($pix_arr[1])?$pix_arr[1]+1:2;
+			$data['ip'] = $data['ip']."-".$pic;
+		}
+		$data['code'] = md5($data['ip']);
+		M("machine")->add($data);
+		$this->ajaxReturn(array('code' => 0, 'machine' => $data['code']));
+	}
+
+
+	public function software_control(){
+		$control_id = isset($_POST['control_id'])?$_POST['control_id']:'';
+		$status = isset($_POST['status'])?$_POST['status']:'';
+		if(!$control_id || !$status){
+			$this->ajaxReturn(array('code' => -1, 'msg' => '参数错误'));
+		}
+
+
+
+	}
+
+
+
+}
